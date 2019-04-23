@@ -115,7 +115,7 @@
    <testCaseLink>
       <guid>62f64447-ba2b-4110-b7fb-54bcb77bd3ce</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC03-MTA</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

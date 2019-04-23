@@ -25,7 +25,7 @@
          <combinationType>ONE</combinationType>
          <id>b45416e5-22e3-43fb-8d6c-e76e16051958</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
+            <iterationType>RANGE</iterationType>
             <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/TestData/PolicyDetails</testDataId>
