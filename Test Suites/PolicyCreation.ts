@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>3af4f965-9179-4991-89eb-379f548de577</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC02-CreatePolicy</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
