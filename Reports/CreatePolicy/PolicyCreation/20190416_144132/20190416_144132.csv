@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PolicyCreation,Firefox 56.0,,2019-04-16 14:41:38,2019-04-16 14:43:34,1m - 56.160s,FAILED
+,,,,,,
+Test Cases/TC01-LoginApplication,Firefox 56.0,,2019-04-16 14:42:09,2019-04-16 14:42:22,13.332s,PASSED
+"openBrowser("""")",Firefox 56.0,,2019-04-16 14:42:09,2019-04-16 14:42:09,0.002s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Firefox 56.0,,2019-04-16 14:42:09,2019-04-16 14:42:09,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Firefox 56.0,,2019-04-16 14:42:09,2019-04-16 14:42:10,1.023s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Firefox 56.0,,2019-04-16 14:42:10,2019-04-16 14:42:10,0.176s,PASSED
+"delay(4, STOP_ON_FAILURE)",Firefox 56.0,,2019-04-16 14:42:10,2019-04-16 14:42:14,4.039s,PASSED
+maximizeWindow(),Firefox 56.0,,2019-04-16 14:42:14,2019-04-16 14:42:14,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Firefox 56.0,,2019-04-16 14:42:14,2019-04-16 14:42:22,7.804s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Firefox 56.0,,2019-04-16 14:42:22,2019-04-16 14:42:22,0.001s,NOT_RUN
+log.logInfo(“Dipak”),Firefox 56.0,,2019-04-16 14:42:22,2019-04-16 14:42:22,0.001s,NOT_RUN
+,,,,,,
+Test Cases/TC05-PaymentSection,Firefox 56.0,This section is used to paid the transaction,2019-04-16 14:42:22,2019-04-16 14:42:50,27.890s,PASSED
+delay(3),Firefox 56.0,,2019-04-16 14:42:22,2019-04-16 14:42:25,3.004s,PASSED
+"scrollToElement(findTestObject(""TC05-PaymentSection/Payments""), 3)",Firefox 56.0,,2019-04-16 14:42:25,2019-04-16 14:42:26,0.176s,PASSED
+"click(findTestObject(""TC05-PaymentSection/Payments""))",Firefox 56.0,,2019-04-16 14:42:26,2019-04-16 14:42:26,0.214s,PASSED
+delay(5),Firefox 56.0,,2019-04-16 14:42:26,2019-04-16 14:42:31,5.004s,PASSED
+"click(findTestObject(""TC05-PaymentSection/Cash and Cheque Payments""))",Firefox 56.0,,2019-04-16 14:42:31,2019-04-16 14:42:31,0.171s,PASSED
+delay(5),Firefox 56.0,,2019-04-16 14:42:31,2019-04-16 14:42:36,5.002s,PASSED
+"setText(findTestObject(""TC05-PaymentSection/PolicyNoSearchBox""), Policy_No_Search)",Firefox 56.0,,2019-04-16 14:42:36,2019-04-16 14:42:36,0.203s,PASSED
+"sendKeys(findTestObject(""TC05-PaymentSection/PolicyNoSearchBox""), Keys.chord(ENTER))",Firefox 56.0,,2019-04-16 14:42:36,2019-04-16 14:42:37,0.629s,PASSED
+delay(5),Firefox 56.0,,2019-04-16 14:42:37,2019-04-16 14:42:42,5.003s,PASSED
+"click(findTestObject(""TC05-PaymentSection/EditPaymentListing""))",Firefox 56.0,,2019-04-16 14:42:42,2019-04-16 14:42:42,0.211s,PASSED
+"setText(findTestObject(""TC05-PaymentSection/Note""), ""This is Testing Only"")",Firefox 56.0,,2019-04-16 14:42:42,2019-04-16 14:42:43,0.929s,PASSED
+"selectOptionByLabel(findTestObject(""TC05-PaymentSection/TransactionStatus""), ""Paid"", false)",Firefox 56.0,,2019-04-16 14:42:43,2019-04-16 14:42:43,0.161s,PASSED
+"click(findTestObject(""TC05-PaymentSection/SaveButton""))",Firefox 56.0,,2019-04-16 14:42:43,2019-04-16 14:42:45,1.958s,PASSED
+delay(5),Firefox 56.0,,2019-04-16 14:42:45,2019-04-16 14:42:50,5.003s,PASSED
+,,,,,,
+Test Cases/TC05-PaymentSection,Firefox 56.0,This section is used to paid the transaction,2019-04-16 14:42:50,2019-04-16 14:42:59,8.593s,FAILED
+delay(3),Firefox 56.0,,2019-04-16 14:42:50,2019-04-16 14:42:53,3.003s,PASSED
+"scrollToElement(findTestObject(""TC05-PaymentSection/Payments""), 3)",Firefox 56.0,,2019-04-16 14:42:53,2019-04-16 14:42:53,0.132s,PASSED
+"click(findTestObject(""TC05-PaymentSection/Payments""))",Firefox 56.0,,2019-04-16 14:42:53,2019-04-16 14:42:53,0.171s,PASSED
+delay(5),Firefox 56.0,,2019-04-16 14:42:53,2019-04-16 14:42:58,5.002s,PASSED
+"click(findTestObject(""TC05-PaymentSection/Cash and Cheque Payments""))",Firefox 56.0,,2019-04-16 14:42:58,2019-04-16 14:42:59,0.269s,FAILED
+,,,,,,
+Test Cases/TC05-PaymentSection,Firefox 56.0,This section is used to paid the transaction,2019-04-16 14:42:59,2019-04-16 14:43:25,26.840s,PASSED
+delay(3),Firefox 56.0,,2019-04-16 14:42:59,2019-04-16 14:43:02,3.002s,PASSED
+"scrollToElement(findTestObject(""TC05-PaymentSection/Payments""), 3)",Firefox 56.0,,2019-04-16 14:43:02,2019-04-16 14:43:02,0.064s,PASSED
+"click(findTestObject(""TC05-PaymentSection/Payments""))",Firefox 56.0,,2019-04-16 14:43:02,2019-04-16 14:43:02,0.163s,PASSED
+delay(5),Firefox 56.0,,2019-04-16 14:43:02,2019-04-16 14:43:07,5.003s,PASSED
+"click(findTestObject(""TC05-PaymentSection/Cash and Cheque Payments""))",Firefox 56.0,,2019-04-16 14:43:07,2019-04-16 14:43:07,0.175s,PASSED
+delay(5),Firefox 56.0,,2019-04-16 14:43:07,2019-04-16 14:43:12,5.001s,PASSED
+"setText(findTestObject(""TC05-PaymentSection/PolicyNoSearchBox""), Policy_No_Search)",Firefox 56.0,,2019-04-16 14:43:12,2019-04-16 14:43:12,0.200s,PASSED
+"sendKeys(findTestObject(""TC05-PaymentSection/PolicyNoSearchBox""), Keys.chord(ENTER))",Firefox 56.0,,2019-04-16 14:43:12,2019-04-16 14:43:12,0.084s,PASSED
+delay(5),Firefox 56.0,,2019-04-16 14:43:12,2019-04-16 14:43:17,5.001s,PASSED
+"click(findTestObject(""TC05-PaymentSection/EditPaymentListing""))",Firefox 56.0,,2019-04-16 14:43:17,2019-04-16 14:43:18,0.204s,PASSED
+"setText(findTestObject(""TC05-PaymentSection/Note""), ""This is Testing Only"")",Firefox 56.0,,2019-04-16 14:43:18,2019-04-16 14:43:18,0.735s,PASSED
+"selectOptionByLabel(findTestObject(""TC05-PaymentSection/TransactionStatus""), ""Paid"", false)",Firefox 56.0,,2019-04-16 14:43:18,2019-04-16 14:43:19,0.325s,PASSED
+"click(findTestObject(""TC05-PaymentSection/SaveButton""))",Firefox 56.0,,2019-04-16 14:43:19,2019-04-16 14:43:20,1.869s,PASSED
+delay(5),Firefox 56.0,,2019-04-16 14:43:20,2019-04-16 14:43:25,5.002s,PASSED
+,,,,,,
+Test Cases/TC05-PaymentSection,Firefox 56.0,This section is used to paid the transaction,2019-04-16 14:43:25,2019-04-16 14:43:34,8.500s,FAILED
+delay(3),Firefox 56.0,,2019-04-16 14:43:25,2019-04-16 14:43:28,3.002s,PASSED
+"scrollToElement(findTestObject(""TC05-PaymentSection/Payments""), 3)",Firefox 56.0,,2019-04-16 14:43:28,2019-04-16 14:43:29,0.088s,PASSED
+"click(findTestObject(""TC05-PaymentSection/Payments""))",Firefox 56.0,,2019-04-16 14:43:29,2019-04-16 14:43:29,0.155s,PASSED
+delay(5),Firefox 56.0,,2019-04-16 14:43:29,2019-04-16 14:43:34,5.002s,PASSED
+"click(findTestObject(""TC05-PaymentSection/Cash and Cheque Payments""))",Firefox 56.0,,2019-04-16 14:43:34,2019-04-16 14:43:34,0.239s,FAILED

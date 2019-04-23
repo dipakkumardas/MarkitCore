@@ -1,0 +1,122 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PolicyCreation,Chrome 73.0.3683.103,,2019-04-12 17:08:54,2019-04-12 17:11:45,2m - 51.369s,PASSED
+,,,,,,
+Test Cases/TC01-LoginApplication,Chrome 73.0.3683.103,,2019-04-12 17:09:02,2019-04-12 17:09:14,11.509s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 17:09:03,2019-04-12 17:09:03,0.001s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 73.0.3683.103,,2019-04-12 17:09:03,2019-04-12 17:09:03,0.000s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Chrome 73.0.3683.103,,2019-04-12 17:09:03,2019-04-12 17:09:03,0.238s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Chrome 73.0.3683.103,,2019-04-12 17:09:03,2019-04-12 17:09:03,0.153s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-12 17:09:03,2019-04-12 17:09:07,4.021s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-12 17:09:07,2019-04-12 17:09:07,0.002s,NOT_RUN
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Chrome 73.0.3683.103,,2019-04-12 17:09:07,2019-04-12 17:09:14,6.913s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 73.0.3683.103,,2019-04-12 17:09:14,2019-04-12 17:09:14,0.001s,NOT_RUN
+log.logInfo(“Dipak”),Chrome 73.0.3683.103,,2019-04-12 17:09:14,2019-04-12 17:09:14,0.001s,NOT_RUN
+,,,,,,
+Test Cases/TC05-PaymentSection,Chrome 73.0.3683.103,This section is used to paid the transaction,2019-04-12 17:09:14,2019-04-12 17:09:43,29.338s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-12 17:09:14,2019-04-12 17:09:17,3.006s,PASSED
+"scrollToElement(findTestObject(""TC05-PaymentSection/Payments""), 3)",Chrome 73.0.3683.103,,2019-04-12 17:09:17,2019-04-12 17:09:17,0.073s,PASSED
+"click(findTestObject(""TC05-PaymentSection/Payments""))",Chrome 73.0.3683.103,,2019-04-12 17:09:17,2019-04-12 17:09:17,0.065s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:09:17,2019-04-12 17:09:22,5.003s,PASSED
+"click(findTestObject(""TC05-PaymentSection/Cash and Cheque Payments""))",Chrome 73.0.3683.103,,2019-04-12 17:09:22,2019-04-12 17:09:24,2.016s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:09:24,2019-04-12 17:09:29,5.002s,PASSED
+"setText(findTestObject(""TC05-PaymentSection/PolicyNoSearchBox""), Policy_No_Search)",Chrome 73.0.3683.103,,2019-04-12 17:09:29,2019-04-12 17:09:30,0.190s,PASSED
+"sendKeys(findTestObject(""TC05-PaymentSection/PolicyNoSearchBox""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-12 17:09:30,2019-04-12 17:09:30,0.046s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:09:30,2019-04-12 17:09:35,5.003s,PASSED
+"click(findTestObject(""TC05-PaymentSection/EditPaymentListing""))",Chrome 73.0.3683.103,,2019-04-12 17:09:35,2019-04-12 17:09:35,0.085s,PASSED
+"setText(findTestObject(""TC05-PaymentSection/Note""), ""This is Testing Only"")",Chrome 73.0.3683.103,,2019-04-12 17:09:35,2019-04-12 17:09:36,1.152s,PASSED
+"selectOptionByLabel(findTestObject(""TC05-PaymentSection/TransactionStatus""), ""Paid"", false)",Chrome 73.0.3683.103,,2019-04-12 17:09:36,2019-04-12 17:09:36,0.120s,PASSED
+"click(findTestObject(""TC05-PaymentSection/SaveButton""))",Chrome 73.0.3683.103,,2019-04-12 17:09:36,2019-04-12 17:09:38,2.374s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:09:38,2019-04-12 17:09:43,5.002s,PASSED
+,,,,,,
+Test Cases/TC04-AccountMatching-MGA,Chrome 73.0.3683.103,This is Account Matching OF MGA,2019-04-12 17:09:43,2019-04-12 17:10:25,41.220s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 73.0.3683.103,,2019-04-12 17:09:44,2019-04-12 17:09:44,0.001s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-12 17:09:44,2019-04-12 17:09:47,3.003s,PASSED
+"scrollToElement(findTestObject(""TC04-AccountMatching-MGA/AccountManagement""), 5)",Chrome 73.0.3683.103,,2019-04-12 17:09:47,2019-04-12 17:09:47,0.077s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/AccountManagement""))",Chrome 73.0.3683.103,,2019-04-12 17:09:47,2019-04-12 17:09:47,0.071s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:09:47,2019-04-12 17:09:47,0.001s,NOT_RUN
+"waitForElementVisible(findTestObject(""TC04-AccountMatching-MGA/AccountMatchingLink""), 4)",Chrome 73.0.3683.103,,2019-04-12 17:09:47,2019-04-12 17:09:47,0.615s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/AccountMatchingLink""))",Chrome 73.0.3683.103,,2019-04-12 17:09:47,2019-04-12 17:09:49,1.495s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:09:49,2019-04-12 17:09:54,5.004s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/EntityType""), ""MGA"", false)",Chrome 73.0.3683.103,,2019-04-12 17:09:54,2019-04-12 17:09:54,0.099s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:09:54,2019-04-12 17:09:59,5.002s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/Entity""), ""NEW MGA"", false)",Chrome 73.0.3683.103,,2019-04-12 17:09:59,2019-04-12 17:09:59,0.095s,PASSED
+"waitForElementClickable(findTestObject(""TC04-AccountMatching-MGA/ClickGoButton""), 5)",Chrome 73.0.3683.103,,2019-04-12 17:09:59,2019-04-12 17:09:59,0.074s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/ClickGoButton""))",Chrome 73.0.3683.103,,2019-04-12 17:09:59,2019-04-12 17:10:01,1.938s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.103,,2019-04-12 17:10:01,2019-04-12 17:10:04,2.812s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/SelectAccount""), ""ComissionOnly -- Allocated -- NEW MGA CommAccount -- USD"", false)",Chrome 73.0.3683.103,,2019-04-12 17:10:04,2019-04-12 17:10:04,0.094s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:10:04,2019-04-12 17:10:09,5.005s,PASSED
+"setText(findTestObject(""TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox""), MTA_Policy_No)",Chrome 73.0.3683.103,,2019-04-12 17:10:09,2019-04-12 17:10:09,0.234s,PASSED
+"sendKeys(findTestObject(""TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-12 17:10:09,2019-04-12 17:10:09,0.039s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:10:09,2019-04-12 17:10:14,5.002s,PASSED
+"waitForElementClickable(findTestObject(""TC04-AccountMatching-MGA/CheckBox""), 5)",Chrome 73.0.3683.103,,2019-04-12 17:10:14,2019-04-12 17:10:14,0.063s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/CheckBox""))",Chrome 73.0.3683.103,,2019-04-12 17:10:14,2019-04-12 17:10:14,0.068s,PASSED
+delay(4),Chrome 73.0.3683.103,,2019-04-12 17:10:14,2019-04-12 17:10:18,4.003s,PASSED
+"MGA_Comission_Amount = getText(findTestObject(""TC04-AccountMatching-MGA/MGA_Amount""))",Chrome 73.0.3683.103,,2019-04-12 17:10:18,2019-04-12 17:10:18,0.075s,PASSED
+"scrollToElement(findTestObject(""TC04-AccountMatching-MGA/PAYFULL""), 5)",Chrome 73.0.3683.103,,2019-04-12 17:10:18,2019-04-12 17:10:18,0.036s,PASSED
+"setText(findTestObject(""TC04-AccountMatching-MGA/PAYFULL""), MGA_Comission_Amount)",Chrome 73.0.3683.103,,2019-04-12 17:10:18,2019-04-12 17:10:19,0.123s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/MatchAmount""))",Chrome 73.0.3683.103,,2019-04-12 17:10:19,2019-04-12 17:10:19,0.066s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:10:19,2019-04-12 17:10:24,5.004s,PASSED
+"com.excel.helper.ExcelHelper.updateTheExcel(""E:\MarkitCore\CoreApplication\Data Files\TestData\Comission.xlsx"", ""Sheet1"", MGA_Comission_Amount)",Chrome 73.0.3683.103,,2019-04-12 17:10:24,2019-04-12 17:10:25,0.883s,PASSED
+log.logInfo(MGA_Comission_Amount),Chrome 73.0.3683.103,,2019-04-12 17:10:25,2019-04-12 17:10:25,0.001s,PASSED
+,,,,,,
+Test Cases/TC07-AccountMatching-Broker,Chrome 73.0.3683.103,Account matching of Broker Statement,2019-04-12 17:10:25,2019-04-12 17:11:07,42.150s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 73.0.3683.103,,2019-04-12 17:10:25,2019-04-12 17:10:25,0.000s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-12 17:10:25,2019-04-12 17:10:28,3.003s,PASSED
+"scrollToElement(findTestObject(""TC04-AccountMatching-MGA/AccountManagement""), 5)",Chrome 73.0.3683.103,,2019-04-12 17:10:28,2019-04-12 17:10:28,0.042s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/AccountManagement""))",Chrome 73.0.3683.103,,2019-04-12 17:10:28,2019-04-12 17:10:28,0.065s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:10:28,2019-04-12 17:10:28,0.001s,NOT_RUN
+"waitForElementVisible(findTestObject(""TC04-AccountMatching-MGA/AccountMatchingLink""), 4)",Chrome 73.0.3683.103,,2019-04-12 17:10:28,2019-04-12 17:10:28,0.039s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/AccountMatchingLink""))",Chrome 73.0.3683.103,,2019-04-12 17:10:28,2019-04-12 17:10:30,1.900s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:10:30,2019-04-12 17:10:35,5.003s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:10:35,2019-04-12 17:10:40,5.003s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/EntityType""), ""Broker"", false)",Chrome 73.0.3683.103,,2019-04-12 17:10:40,2019-04-12 17:10:40,0.110s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:10:40,2019-04-12 17:10:45,5.003s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/Entity""), ""New Broker"", false)",Chrome 73.0.3683.103,,2019-04-12 17:10:45,2019-04-12 17:10:45,0.099s,PASSED
+"waitForElementClickable(findTestObject(""TC04-AccountMatching-MGA/ClickGoButton""), 5)",Chrome 73.0.3683.103,,2019-04-12 17:10:45,2019-04-12 17:10:45,0.039s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/ClickGoButton""))",Chrome 73.0.3683.103,,2019-04-12 17:10:45,2019-04-12 17:10:47,2.155s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.103,,2019-04-12 17:10:47,2019-04-12 17:10:48,0.631s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/SelectAccount""), ""COMMSION ACCOUNT -- Allocated -- DEFAULT-300013-USD -- USD"", false)",Chrome 73.0.3683.103,,2019-04-12 17:10:48,2019-04-12 17:10:48,0.095s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:10:48,2019-04-12 17:10:53,5.003s,PASSED
+"setText(findTestObject(""TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox""), MTA_Policy_No)",Chrome 73.0.3683.103,,2019-04-12 17:10:53,2019-04-12 17:10:53,0.246s,PASSED
+"sendKeys(findTestObject(""TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-12 17:10:53,2019-04-12 17:10:53,0.047s,PASSED
+delay(4),Chrome 73.0.3683.103,,2019-04-12 17:10:53,2019-04-12 17:10:57,4.011s,PASSED
+"waitForElementClickable(findTestObject(""TC04-AccountMatching-MGA/CheckBox""), 5)",Chrome 73.0.3683.103,,2019-04-12 17:10:57,2019-04-12 17:10:57,0.043s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/CheckBox""))",Chrome 73.0.3683.103,,2019-04-12 17:10:57,2019-04-12 17:10:57,0.059s,PASSED
+delay(4),Chrome 73.0.3683.103,,2019-04-12 17:10:57,2019-04-12 17:11:01,4.004s,PASSED
+"MGA_Comission_Amount = getText(findTestObject(""TC04-AccountMatching-MGA/MGA_Amount""))",Chrome 73.0.3683.103,,2019-04-12 17:11:01,2019-04-12 17:11:02,0.057s,PASSED
+"scrollToElement(findTestObject(""TC04-AccountMatching-MGA/PAYFULL""), 5)",Chrome 73.0.3683.103,,2019-04-12 17:11:02,2019-04-12 17:11:02,0.031s,PASSED
+"setText(findTestObject(""TC04-AccountMatching-MGA/PAYFULL""), MGA_Comission_Amount)",Chrome 73.0.3683.103,,2019-04-12 17:11:02,2019-04-12 17:11:02,0.120s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/MatchAmount""))",Chrome 73.0.3683.103,,2019-04-12 17:11:02,2019-04-12 17:11:02,0.065s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:11:02,2019-04-12 17:11:07,5.002s,PASSED
+log.logInfo(MGA_Comission_Amount),Chrome 73.0.3683.103,,2019-04-12 17:11:07,2019-04-12 17:11:07,0.001s,PASSED
+,,,,,,
+Test Cases/TC08-AccountMatching-Insurer,Chrome 73.0.3683.103,This is Account Matching Broker,2019-04-12 17:11:07,2019-04-12 17:11:44,37.653s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 73.0.3683.103,,2019-04-12 17:11:07,2019-04-12 17:11:07,0.001s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-12 17:11:07,2019-04-12 17:11:10,3.002s,PASSED
+"scrollToElement(findTestObject(""TC04-AccountMatching-MGA/AccountManagement""), 5)",Chrome 73.0.3683.103,,2019-04-12 17:11:10,2019-04-12 17:11:10,0.046s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/AccountManagement""))",Chrome 73.0.3683.103,,2019-04-12 17:11:10,2019-04-12 17:11:10,0.064s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:11:10,2019-04-12 17:11:10,0.001s,NOT_RUN
+"waitForElementVisible(findTestObject(""TC04-AccountMatching-MGA/AccountMatchingLink""), 4)",Chrome 73.0.3683.103,,2019-04-12 17:11:10,2019-04-12 17:11:10,0.040s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/AccountMatchingLink""))",Chrome 73.0.3683.103,,2019-04-12 17:11:10,2019-04-12 17:11:12,1.588s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:11:12,2019-04-12 17:11:17,5.004s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/EntityType""), ""Insurer"", false)",Chrome 73.0.3683.103,,2019-04-12 17:11:17,2019-04-12 17:11:17,0.095s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:11:17,2019-04-12 17:11:22,5.003s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/Entity""), ""New Insurer"", false)",Chrome 73.0.3683.103,,2019-04-12 17:11:22,2019-04-12 17:11:22,0.092s,PASSED
+"waitForElementClickable(findTestObject(""TC04-AccountMatching-MGA/ClickGoButton""), 5)",Chrome 73.0.3683.103,,2019-04-12 17:11:22,2019-04-12 17:11:22,0.035s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/ClickGoButton""))",Chrome 73.0.3683.103,,2019-04-12 17:11:22,2019-04-12 17:11:24,1.972s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.103,,2019-04-12 17:11:24,2019-04-12 17:11:25,0.633s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/SelectAccount""), ""New Insurer Comission Account -- Allocated -- New Insurer-COM-ACC -- USD"", false)",Chrome 73.0.3683.103,,2019-04-12 17:11:25,2019-04-12 17:11:25,0.090s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:11:25,2019-04-12 17:11:30,5.004s,PASSED
+"setText(findTestObject(""TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox""), MTA_Policy_No)",Chrome 73.0.3683.103,,2019-04-12 17:11:30,2019-04-12 17:11:30,0.244s,PASSED
+"sendKeys(findTestObject(""TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-12 17:11:30,2019-04-12 17:11:30,0.041s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:11:30,2019-04-12 17:11:35,5.004s,PASSED
+"waitForElementClickable(findTestObject(""TC04-AccountMatching-MGA/CheckBox""), 5)",Chrome 73.0.3683.103,,2019-04-12 17:11:35,2019-04-12 17:11:35,0.053s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/CheckBox""))",Chrome 73.0.3683.103,,2019-04-12 17:11:35,2019-04-12 17:11:35,0.074s,PASSED
+delay(4),Chrome 73.0.3683.103,,2019-04-12 17:11:35,2019-04-12 17:11:39,4.003s,PASSED
+"Insurer_Comission_Amount = getText(findTestObject(""TC04-AccountMatching-MGA/MGA_Amount""))",Chrome 73.0.3683.103,,2019-04-12 17:11:39,2019-04-12 17:11:39,0.052s,PASSED
+"scrollToElement(findTestObject(""TC04-AccountMatching-MGA/PAYFULL""), 5)",Chrome 73.0.3683.103,,2019-04-12 17:11:39,2019-04-12 17:11:39,0.028s,PASSED
+"setText(findTestObject(""TC04-AccountMatching-MGA/PAYFULL""), Insurer_Comission_Amount)",Chrome 73.0.3683.103,,2019-04-12 17:11:39,2019-04-12 17:11:39,0.118s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/MatchAmount""))",Chrome 73.0.3683.103,,2019-04-12 17:11:39,2019-04-12 17:11:39,0.066s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 17:11:39,2019-04-12 17:11:44,5.002s,PASSED
+"com.excel.helper.InsurerComission.updateTheExcel(""E:\MarkitCore\CoreApplication\Data Files\TestData\Comission.xlsx"", ""Sheet1"", Insurer_Comission_Amount)",Chrome 73.0.3683.103,,2019-04-12 17:11:44,2019-04-12 17:11:44,0.090s,PASSED
+log.logInfo(Insurer_Comission_Amount),Chrome 73.0.3683.103,,2019-04-12 17:11:44,2019-04-12 17:11:44,0.001s,PASSED
