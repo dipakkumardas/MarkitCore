@@ -92,7 +92,7 @@ var_Total = WebUI.getText(findTestObject('TC-CreatePolicy/Premium/TotalPremium')
 CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('E:\\MarkitCore\\CoreApplication\\Data Files\\TestData\\policy.xlsx', 
     'ActualValue', var_Total)
 
-WebUI.verifyElementText(findTestObject('TC-CreatePolicy/Premium/TotalPremium'), var_ExpectedValue)
+not_run: WebUI.verifyElementText(findTestObject('TC-CreatePolicy/Premium/TotalPremium'), var_ExpectedValue)
 
 WebUI.delay(2)
 
