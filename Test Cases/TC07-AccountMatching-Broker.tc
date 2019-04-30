@@ -19,4 +19,11 @@
       <masked>false</masked>
       <name>BROKER_Comission_Amount</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7241c9ca-9617-4e94-ab0d-de032419fd7d</id>
+      <masked>false</masked>
+      <name>Broker_Comm_Amt</name>
+   </variable>
 </TestCaseEntity>

@@ -103,4 +103,124 @@
          <variableId>31afcc48-9ad7-4879-ad29-6d8f0d4de665</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>76c3e2dc-16f2-4fa9-a16d-100cb8d649c9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/TC05-PaymentSection</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>256a7673-b1ed-4376-a936-f8be37687452</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData/MTA_PolicyNO</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>256a7673-b1ed-4376-a936-f8be37687452</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PolicyNo</value>
+         <variableId>40ee224d-c9c5-4749-8e50-9a6add50ee67</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d1b1e8f8-17ad-4223-853e-96ce3f7f01a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/TC04-AccountMatching-MGA</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fb4c1793-7b26-4e40-ae60-61ec42f49afc</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData/MTA_PolicyNO</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>fb4c1793-7b26-4e40-ae60-61ec42f49afc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PolicyNo</value>
+         <variableId>7aa213af-01dc-4774-96b7-8e9d7c39244b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>952df2ad-ec4c-4db0-8918-5c2e7d363865</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9805e1c8-674b-4c46-b8a2-f194b59f51d1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7c501557-811e-4fa5-8d04-7365100ba20e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC07-AccountMatching-Broker</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8c002e69-0c26-425f-8158-c1dc0a5362f5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData/MTA_PolicyNO</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>8c002e69-0c26-425f-8158-c1dc0a5362f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PolicyNo</value>
+         <variableId>64c58571-67e7-437e-b14d-21496d6750fc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>43eee103-f51c-49b7-a16d-fc9354890f81</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7241c9ca-9617-4e94-ab0d-de032419fd7d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f5507a98-aadf-4c89-9001-c11222a664ba</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC08-AccountMatching-Insurer</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>07a49930-f219-447d-bc81-eae27379dafb</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData/MTA_PolicyNO</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>07a49930-f219-447d-bc81-eae27379dafb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PolicyNo</value>
+         <variableId>9c444b3f-d0a5-404e-8ee7-275bdacb4cf9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9d93b673-7709-4a73-b87a-02d76ead2e0d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>484a7b71-40a0-4bf2-9b17-fe633797eb6a</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

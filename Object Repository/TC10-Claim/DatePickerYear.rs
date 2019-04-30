@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>SelectYear</description>
+   <name>DatePickerYear</name>
+   <tag></tag>
+   <elementGuidId>b63e6588-beaf-4e6f-8bc9-21d63efcc552</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@class='ui-datepicker-year']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@class='ui-datepicker-year']</value>
+   </webElementProperties>
+</WebElementEntity>

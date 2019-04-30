@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Claim,Chrome 74.0.3729.108,,2019-04-25 16:06:28,2019-04-25 16:07:17,49.275s,FAILED
+,,,,,,
+Test Cases/TC01-LoginApplication,Chrome 74.0.3729.108,,2019-04-25 16:06:37,2019-04-25 16:06:47,9.575s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-25 16:06:37,2019-04-25 16:06:37,0.003s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 74.0.3729.108,,2019-04-25 16:06:37,2019-04-25 16:06:37,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Chrome 74.0.3729.108,,2019-04-25 16:06:37,2019-04-25 16:06:37,0.221s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Chrome 74.0.3729.108,,2019-04-25 16:06:37,2019-04-25 16:06:38,0.142s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:06:38,2019-04-25 16:06:42,4.024s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-04-25 16:06:42,2019-04-25 16:06:42,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Chrome 74.0.3729.108,,2019-04-25 16:06:42,2019-04-25 16:06:47,4.966s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 74.0.3729.108,,2019-04-25 16:06:47,2019-04-25 16:06:47,0.001s,NOT_RUN
+log.logInfo(“Dipak”),Chrome 74.0.3729.108,,2019-04-25 16:06:47,2019-04-25 16:06:47,0.001s,NOT_RUN
+,,,,,,
+Test Cases/TC10-ClaimManagement,Chrome 74.0.3729.108,This Test Case is used to claim management.,2019-04-25 16:06:47,2019-04-25 16:07:17,30.008s,FAILED
+delay(3),Chrome 74.0.3729.108,,2019-04-25 16:06:47,2019-04-25 16:06:50,3.007s,PASSED
+"click(findTestObject(""TC10-Claim/Claims""))",Chrome 74.0.3729.108,,2019-04-25 16:06:50,2019-04-25 16:06:50,0.092s,PASSED
+delay(4),Chrome 74.0.3729.108,,2019-04-25 16:06:50,2019-04-25 16:06:54,4.005s,PASSED
+"click(findTestObject(""TC10-Claim/ClaimManagement""))",Chrome 74.0.3729.108,,2019-04-25 16:06:54,2019-04-25 16:06:55,1.129s,PASSED
+waitForJQueryLoad(5),Chrome 74.0.3729.108,,2019-04-25 16:06:55,2019-04-25 16:06:56,1.196s,PASSED
+"click(findTestObject(""TC10-Claim/AddClaimButton""))",Chrome 74.0.3729.108,,2019-04-25 16:06:56,2019-04-25 16:06:59,2.585s,PASSED
+waitForJQueryLoad(4),Chrome 74.0.3729.108,,2019-04-25 16:06:59,2019-04-25 16:07:00,1.156s,PASSED
+"click(findTestObject(""TC10-Claim/PolicyRefNo""))",Chrome 74.0.3729.108,,2019-04-25 16:07:00,2019-04-25 16:07:00,0.221s,PASSED
+"setText(findTestObject(""TC10-Claim/SetPolicyNo""), PolicyNo_Claim)",Chrome 74.0.3729.108,,2019-04-25 16:07:00,2019-04-25 16:07:01,1.158s,PASSED
+delay(2),Chrome 74.0.3729.108,,2019-04-25 16:07:01,2019-04-25 16:07:03,2.003s,PASSED
+"click(findTestObject(""TC10-Claim/FindPolicyButton""))",Chrome 74.0.3729.108,,2019-04-25 16:07:03,2019-04-25 16:07:03,0.085s,PASSED
+delay(5),Chrome 74.0.3729.108,,2019-04-25 16:07:03,2019-04-25 16:07:03,0.000s,NOT_RUN
+"click(findTestObject(""TC10-Claim/CloseButton""))",Chrome 74.0.3729.108,,2019-04-25 16:07:03,2019-04-25 16:07:03,0.001s,NOT_RUN
+delay(5),Chrome 74.0.3729.108,,2019-04-25 16:07:03,2019-04-25 16:07:03,0.001s,NOT_RUN
+"click(findTestObject(""TC10-Claim/ClientType""))",Chrome 74.0.3729.108,,2019-04-25 16:07:03,2019-04-25 16:07:03,0.001s,NOT_RUN
+waitForJQueryLoad(5),Chrome 74.0.3729.108,,2019-04-25 16:07:03,2019-04-25 16:07:05,1.031s,PASSED
+"selectOptionByLabel(findTestObject(""TC10-Claim/ClientSearch""), ""Dipak Das"", false)",Chrome 74.0.3729.108,,2019-04-25 16:07:05,2019-04-25 16:07:05,0.413s,FAILED
+"selectOptionByLabel(findTestObject(""TC10-Claim/ProductSearch""), ""BasicDemoProduct"", false)",Chrome 74.0.3729.108,,2019-04-25 16:07:05,2019-04-25 16:07:05,0.087s,PASSED
+"click(findTestObject(""TC10-Claim/SearchPolicy""))",Chrome 74.0.3729.108,,2019-04-25 16:07:05,2019-04-25 16:07:05,0.065s,PASSED
+waitForJQueryLoad(5),Chrome 74.0.3729.108,,2019-04-25 16:07:05,2019-04-25 16:07:06,0.524s,PASSED
+"selectOptionByLabel(findTestObject(""TC10-Claim/FindPolicyRefNo""), PolicyNo_Claim, false)",Chrome 74.0.3729.108,,2019-04-25 16:07:06,2019-04-25 16:07:06,0.098s,PASSED
+"click(findTestObject(""TC10-Claim/SelectPolicy""))",Chrome 74.0.3729.108,,2019-04-25 16:07:06,2019-04-25 16:07:06,0.070s,PASSED
+delay(5),Chrome 74.0.3729.108,,2019-04-25 16:07:06,2019-04-25 16:07:11,5.005s,PASSED
+"setText(findTestObject(""TC10-Claim/ClaimantName""), ""Jerry Miller"")",Chrome 74.0.3729.108,,2019-04-25 16:07:11,2019-04-25 16:07:11,0.195s,PASSED
+"click(findTestObject(""TC10-Claim/ClickDateOfLossFields""))",Chrome 74.0.3729.108,,2019-04-25 16:07:11,2019-04-25 16:07:11,0.086s,PASSED
+"selectOptionByLabel(findTestObject(""TC10-Claim/DatePickerYear""), ""2019"", false)",Chrome 74.0.3729.108,,2019-04-25 16:07:11,2019-04-25 16:07:11,0.064s,PASSED
+"selectOptionByLabel(findTestObject(""TC10-Claim/DatePickerMonth""), ""Apr"", false)",Chrome 74.0.3729.108,,2019-04-25 16:07:11,2019-04-25 16:07:11,0.062s,PASSED
+"click(findTestObject(""TC10-Claim/DatePickerDay""))",Chrome 74.0.3729.108,,2019-04-25 16:07:11,2019-04-25 16:07:11,0.072s,PASSED
+delay(5),Chrome 74.0.3729.108,,2019-04-25 16:07:11,2019-04-25 16:07:16,5.002s,PASSED
+"click(findTestObject(""TC10-Claim/ClaimDateMadeTextBox""))",Chrome 74.0.3729.108,,2019-04-25 16:07:16,2019-04-25 16:07:16,0.096s,PASSED
+"click(findTestObject(""TC10-Claim/DatePickerYear""))",Chrome 74.0.3729.108,,2019-04-25 16:07:16,2019-04-25 16:07:16,0.103s,PASSED
+"click(findTestObject(""TC10-Claim/DatePickerMonth""))",Chrome 74.0.3729.108,,2019-04-25 16:07:16,2019-04-25 16:07:17,0.091s,PASSED
+"click(findTestObject(""TC10-Claim/DatePickerDay""))",Chrome 74.0.3729.108,,2019-04-25 16:07:17,2019-04-25 16:07:17,0.070s,FAILED

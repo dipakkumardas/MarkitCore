@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>LossLocation</description>
+   <name>LossLocation</name>
+   <tag></tag>
+   <elementGuidId>663fa9e9-282c-47d6-b463-114fc4ad0bbb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='select2-lossLocationCountry-container']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='select2-lossLocationCountry-container']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -41,3 +41,9 @@ def static "com.excel.helper.InsurerComission.rownext"(
         	fileName
          , 	sheetName)
 }
+
+def static "subString.FatchSubstringValue.SubString"(
+    	String value	) {
+    (new subString.FatchSubstringValue()).SubString(
+        	value)
+}

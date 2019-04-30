@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PolicyCreation,Chrome 74.0.3729.108,This test case is used to create Policy,2019-04-30 13:04:24,2019-04-30 13:05:34,1m - 9.550s,ERROR
+,,,,,,
+Test Cases/TC01-LoginApplication,Chrome 74.0.3729.108,,2019-04-30 13:04:34,2019-04-30 13:04:45,11.507s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-30 13:04:34,2019-04-30 13:04:34,0.003s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 74.0.3729.108,,2019-04-30 13:04:34,2019-04-30 13:04:34,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Chrome 74.0.3729.108,,2019-04-30 13:04:34,2019-04-30 13:04:34,0.210s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Chrome 74.0.3729.108,,2019-04-30 13:04:34,2019-04-30 13:04:34,0.145s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-30 13:04:34,2019-04-30 13:04:39,4.026s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-04-30 13:04:39,2019-04-30 13:04:39,0.002s,NOT_RUN
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Chrome 74.0.3729.108,,2019-04-30 13:04:39,2019-04-30 13:04:45,6.910s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 74.0.3729.108,,2019-04-30 13:04:45,2019-04-30 13:04:45,0.000s,NOT_RUN
+log.logInfo(“Dipak”),Chrome 74.0.3729.108,,2019-04-30 13:04:45,2019-04-30 13:04:45,0.001s,NOT_RUN
+,,,,,,
+Test Cases/TC07-AccountMatching-Broker,Chrome 74.0.3729.108,Account matching of Broker Statement,2019-04-30 13:04:45,2019-04-30 13:05:33,47.450s,ERROR
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 74.0.3729.108,,2019-04-30 13:04:46,2019-04-30 13:04:46,0.001s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 13:04:46,2019-04-30 13:04:49,3.003s,PASSED
+"scrollToElement(findTestObject(""TC04-AccountMatching-MGA/AccountManagement""), 5)",Chrome 74.0.3729.108,,2019-04-30 13:04:49,2019-04-30 13:04:49,0.042s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/AccountManagement""))",Chrome 74.0.3729.108,,2019-04-30 13:04:49,2019-04-30 13:04:49,0.067s,PASSED
+delay(5),Chrome 74.0.3729.108,,2019-04-30 13:04:49,2019-04-30 13:04:49,0.001s,NOT_RUN
+"waitForElementVisible(findTestObject(""TC04-AccountMatching-MGA/AccountMatchingLink""), 4)",Chrome 74.0.3729.108,,2019-04-30 13:04:49,2019-04-30 13:04:49,0.566s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/AccountMatchingLink""))",Chrome 74.0.3729.108,,2019-04-30 13:04:49,2019-04-30 13:04:51,1.101s,PASSED
+delay(5),Chrome 74.0.3729.108,,2019-04-30 13:04:51,2019-04-30 13:04:56,5.004s,PASSED
+delay(5),Chrome 74.0.3729.108,,2019-04-30 13:04:56,2019-04-30 13:05:01,5.003s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/EntityType""), ""Broker"", false)",Chrome 74.0.3729.108,,2019-04-30 13:05:01,2019-04-30 13:05:01,0.104s,PASSED
+delay(5),Chrome 74.0.3729.108,,2019-04-30 13:05:01,2019-04-30 13:05:06,5.009s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/Entity""), ""New Broker"", false)",Chrome 74.0.3729.108,,2019-04-30 13:05:06,2019-04-30 13:05:06,0.097s,PASSED
+"waitForElementClickable(findTestObject(""TC04-AccountMatching-MGA/ClickGoButton""), 5)",Chrome 74.0.3729.108,,2019-04-30 13:05:06,2019-04-30 13:05:06,0.050s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/ClickGoButton""))",Chrome 74.0.3729.108,,2019-04-30 13:05:06,2019-04-30 13:05:08,2.333s,PASSED
+waitForJQueryLoad(5),Chrome 74.0.3729.108,,2019-04-30 13:05:08,2019-04-30 13:05:10,1.347s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/SelectAccount""), ""COMMSION ACCOUNT -- Allocated -- DEFAULT-300013-USD -- USD"", false)",Chrome 74.0.3729.108,,2019-04-30 13:05:10,2019-04-30 13:05:10,0.094s,PASSED
+delay(5),Chrome 74.0.3729.108,,2019-04-30 13:05:10,2019-04-30 13:05:15,5.003s,PASSED
+"setText(findTestObject(""TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox""), MTA_Policy_No)",Chrome 74.0.3729.108,,2019-04-30 13:05:15,2019-04-30 13:05:15,0.083s,PASSED
+"sendKeys(findTestObject(""TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox""), Keys.chord(ENTER))",Chrome 74.0.3729.108,,2019-04-30 13:05:15,2019-04-30 13:05:15,0.061s,PASSED
+delay(4),Chrome 74.0.3729.108,,2019-04-30 13:05:15,2019-04-30 13:05:19,4.002s,PASSED
+"waitForElementClickable(findTestObject(""TC04-AccountMatching-MGA/CheckBox""), 5)",Chrome 74.0.3729.108,,2019-04-30 13:05:19,2019-04-30 13:05:19,0.039s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/CheckBox""))",Chrome 74.0.3729.108,,2019-04-30 13:05:19,2019-04-30 13:05:19,0.069s,PASSED
+delay(4),Chrome 74.0.3729.108,,2019-04-30 13:05:19,2019-04-30 13:05:23,4.003s,PASSED
+"BROKER_Comission_Amount = getText(findTestObject(""TC04-AccountMatching-MGA/MGA_Amount""))",Chrome 74.0.3729.108,,2019-04-30 13:05:23,2019-04-30 13:05:23,0.064s,PASSED
+"scrollToElement(findTestObject(""TC04-AccountMatching-MGA/PAYFULL""), 5)",Chrome 74.0.3729.108,,2019-04-30 13:05:23,2019-04-30 13:05:23,0.001s,NOT_RUN
+"setText(findTestObject(""TC04-AccountMatching-MGA/PAYFULL""), MGA_Comission_Amount)",Chrome 74.0.3729.108,,2019-04-30 13:05:23,2019-04-30 13:05:23,0.001s,NOT_RUN
+"click(findTestObject(""TC04-AccountMatching-MGA/PayFullClick""))",Chrome 74.0.3729.108,,2019-04-30 13:05:23,2019-04-30 13:05:23,0.074s,PASSED
+delay(4),Chrome 74.0.3729.108,,2019-04-30 13:05:23,2019-04-30 13:05:27,4.003s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/MatchAmount""))",Chrome 74.0.3729.108,,2019-04-30 13:05:27,2019-04-30 13:05:27,0.087s,PASSED
+delay(5),Chrome 74.0.3729.108,,2019-04-30 13:05:27,2019-04-30 13:05:32,5.004s,PASSED
+"com.excel.helper.InsurerComission.updateTheExcel(""E:\MarkitCore\CoreApplication\Data Files\TestData\Comission.xlsx"", ""Broker"", BROKER_Comission_Amount)",Chrome 74.0.3729.108,,2019-04-30 13:05:32,2019-04-30 13:05:33,0.796s,ERROR

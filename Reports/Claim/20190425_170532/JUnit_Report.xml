@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Claim" time="106" tests="1" failures="1" errors="0">
+   <testsuite name="Claim" tests="1" failures="1" errors="0" time="106" timestamp="2019-04-25 17:05:34" hostname="dipak - DIPAKDAS-PC.indusnettechnologies.com" id="Test Suites/Claim">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\MarkitCore\\CoreApplication\\Reports\\Claim\\20190425_170532"/>
+         <property name="logFiles" value="E:\\MarkitCore\\CoreApplication\\Reports\\Claim\\20190425_170532\\execution0.log"/>
+         <property name="attachments" value="E:\\MarkitCore\\CoreApplication\\Reports\\Claim\\20190425_170532\\1556192195757.png"/>
+         <property name="hostName" value="dipak - DIPAKDAS-PC.indusnettechnologies.com"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 74.0.3729.108"/>
+         <property name="hostAddress" value="10.0.12.237"/>
+         <property name="sessionId" value="d0809084c4a1a7d215d81431a9491e95"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC01-LoginApplication" classname="Test Cases/TC01-LoginApplication" status="PASSED">
+         <system-out><![CDATA[2019-04-25 17:05:43 - [TEST_CASE][PASSED] - Test Cases/TC01-LoginApplication: Test Cases/TC01-LoginApplication
+
+2019-04-25 17:05:43 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2019-04-25 17:05:43 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2019-04-25 17:05:43 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"): NOT_RUN: navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display")
+
+2019-04-25 17:05:43 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display")
+
+2019-04-25 17:05:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username"), "dDasTester"): Text 'dDasTester' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'
+
+2019-04-25 17:05:43 - [MESSAGE][PASSED] - Text 'dDasTester' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'
+
+2019-04-25 17:05:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password"), "Czybm6R*"): Text 'Czybm6R*' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'
+
+2019-04-25 17:05:43 - [MESSAGE][PASSED] - Text 'Czybm6R*' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'
+
+2019-04-25 17:05:43 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2019-04-25 17:05:47 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-25 17:05:47 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2019-04-25 17:05:47 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2019-04-25 17:05:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login")): Object: 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login' is clicked on
+
+2019-04-25 17:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login' is clicked on
+
+2019-04-25 17:05:54 - [TEST_STEP][NOT_RUN] - log = new com.kms.katalon.core.logging.KeywordLogger(): NOT_RUN: log = new com.kms.katalon.core.logging.KeywordLogger()
+
+2019-04-25 17:05:54 - [MESSAGE][NOT_RUN] - NOT_RUN: log = new com.kms.katalon.core.logging.KeywordLogger()
+
+2019-04-25 17:05:54 - [TEST_STEP][NOT_RUN] - log.logInfo(“Dipak”): NOT_RUN: log.logInfo(“Dipak”)
+
+2019-04-25 17:05:54 - [MESSAGE][NOT_RUN] - NOT_RUN: log.logInfo(“Dipak”)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC10-ClaimManagement" classname="Test Cases/TC10-ClaimManagement" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC10-ClaimManagement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/TC10-Claim/ClaimRefNo'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at TC10-ClaimManagement.run(TC10-ClaimManagement:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556192132262.run(TempTestSuite1556192132262.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-25 17:05:54 - [TEST_CASE][FAILED] - Test Cases/TC10-ClaimManagement: Test Cases/TC10-ClaimManagement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/TC10-Claim/ClaimRefNo'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at TC10-ClaimManagement.run(TC10-ClaimManagement:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556192132262.run(TempTestSuite1556192132262.groovy:35)
+
+
+2019-04-25 17:05:54 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-25 17:05:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 17:05:57 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/Claims"), STOP_ON_FAILURE): Object: 'Object Repository/TC10-Claim/Claims' is clicked on
+
+2019-04-25 17:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/Claims' is clicked on
+
+2019-04-25 17:05:57 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2019-04-25 17:06:01 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-25 17:06:01 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/ClaimManagement"), STOP_ON_FAILURE): Object: 'Object Repository/TC10-Claim/ClaimManagement' is clicked on
+
+2019-04-25 17:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/ClaimManagement' is clicked on
+
+2019-04-25 17:06:03 - [TEST_STEP][PASSED] - waitForJQueryLoad(5, STOP_ON_FAILURE): jQuery is ready.
+
+2019-04-25 17:06:04 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-25 17:06:04 - [TEST_STEP][FAILED] - ClaimRef_No = getText(findTestObject("TC10-Claim/ClaimRefNo")): Unable to get text of object 'Object Repository/TC10-Claim/ClaimRefNo'
+
+2019-04-25 17:06:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='claimRef']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-25 17:06:36 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/TC10-Claim/ClaimRefNo'
+[[ATTACHMENT|E:\\MarkitCore\\CoreApplication\\Reports\\Claim\\20190425_170532\\1556192195757.png]]
+
+2019-04-25 17:06:36 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/AddClaimButton"), STOP_ON_FAILURE): Object: 'Object Repository/TC10-Claim/AddClaimButton' is clicked on
+
+2019-04-25 17:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/AddClaimButton' is clicked on
+
+2019-04-25 17:06:38 - [TEST_STEP][PASSED] - com.excel.helper.ExcelHelper.updateTheExcel("E:\MarkitCore\CoreApplication\Data Files\TestData\policy.xlsx", "ClaimRefNo", ClaimRef_No): com.excel.helper.ExcelHelper.updateTheExcel is PASSED
+
+2019-04-25 17:06:40 - [MESSAGE][PASSED] - com.excel.helper.ExcelHelper.updateTheExcel is PASSED
+
+2019-04-25 17:06:40 - [TEST_STEP][PASSED] - waitForJQueryLoad(4, STOP_ON_FAILURE): jQuery is ready.
+
+2019-04-25 17:06:40 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-25 17:06:40 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/PolicyRefNo"), STOP_ON_FAILURE): Object: 'Object Repository/TC10-Claim/PolicyRefNo' is clicked on
+
+2019-04-25 17:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/PolicyRefNo' is clicked on
+
+2019-04-25 17:06:40 - [TEST_STEP][PASSED] - setText(findTestObject("TC10-Claim/SetPolicyNo"), PolicyNo_Claim, STOP_ON_FAILURE): Text 'DASD/POLICY/002823' is set on object 'Object Repository/TC10-Claim/SetPolicyNo'
+
+2019-04-25 17:06:41 - [MESSAGE][PASSED] - Text 'DASD/POLICY/002823' is set on object 'Object Repository/TC10-Claim/SetPolicyNo'
+
+2019-04-25 17:06:41 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2019-04-25 17:06:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 17:06:43 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/FindPolicyButton"), STOP_ON_FAILURE): Object: 'Object Repository/TC10-Claim/FindPolicyButton' is clicked on
+
+2019-04-25 17:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/FindPolicyButton' is clicked on
+
+2019-04-25 17:06:43 - [TEST_STEP][NOT_RUN] - delay(5, STOP_ON_FAILURE): NOT_RUN: delay(5, STOP_ON_FAILURE)
+
+2019-04-25 17:06:43 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(5, STOP_ON_FAILURE)
+
+2019-04-25 17:06:43 - [TEST_STEP][NOT_RUN] - click(findTestObject("TC10-Claim/CloseButton"), STOP_ON_FAILURE): NOT_RUN: click(findTestObject("TC10-Claim/CloseButton"), STOP_ON_FAILURE)
+
+2019-04-25 17:06:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TC10-Claim/CloseButton"), STOP_ON_FAILURE)
+
+2019-04-25 17:06:43 - [TEST_STEP][NOT_RUN] - delay(5, STOP_ON_FAILURE): NOT_RUN: delay(5, STOP_ON_FAILURE)
+
+2019-04-25 17:06:43 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(5, STOP_ON_FAILURE)
+
+2019-04-25 17:06:43 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/ClientType"), STOP_ON_FAILURE): Object: 'Object Repository/TC10-Claim/ClientType' is clicked on
+
+2019-04-25 17:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/ClientType' is clicked on
+
+2019-04-25 17:06:46 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-04-25 17:06:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 17:06:51 - [TEST_STEP][PASSED] - waitForJQueryLoad(5, STOP_ON_FAILURE): jQuery is ready.
+
+2019-04-25 17:06:51 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-25 17:06:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC10-Claim/ClientSearch"), "Dipak Das", false, STOP_ON_FAILURE): All options with label 'Dipak Das' are selected in object 'Object Repository/TC10-Claim/ClientSearch' 
+
+2019-04-25 17:06:51 - [MESSAGE][PASSED] - All options with label 'Dipak Das' are selected in object 'Object Repository/TC10-Claim/ClientSearch' 
+
+2019-04-25 17:06:51 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-25 17:06:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 17:06:54 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC10-Claim/ProductSearch"), "BasicDemoProduct", false, STOP_ON_FAILURE): All options with label 'BasicDemoProduct' are selected in object 'Object Repository/TC10-Claim/ProductSearch' 
+
+2019-04-25 17:06:54 - [MESSAGE][PASSED] - All options with label 'BasicDemoProduct' are selected in object 'Object Repository/TC10-Claim/ProductSearch' 
+
+2019-04-25 17:06:54 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/SearchPolicy"), STOP_ON_FAILURE): Object: 'Object Repository/TC10-Claim/SearchPolicy' is clicked on
+
+2019-04-25 17:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/SearchPolicy' is clicked on
+
+2019-04-25 17:06:54 - [TEST_STEP][PASSED] - waitForJQueryLoad(5, STOP_ON_FAILURE): jQuery is ready.
+
+2019-04-25 17:06:55 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-25 17:06:55 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC10-Claim/FindPolicyRefNo"), PolicyNo_Claim, false, STOP_ON_FAILURE): All options with label 'DASD/POLICY/002823' are selected in object 'Object Repository/TC10-Claim/FindPolicyRefNo' 
+
+2019-04-25 17:06:55 - [MESSAGE][PASSED] - All options with label 'DASD/POLICY/002823' are selected in object 'Object Repository/TC10-Claim/FindPolicyRefNo' 
+
+2019-04-25 17:06:55 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/SelectPolicy"), STOP_ON_FAILURE): Object: 'Object Repository/TC10-Claim/SelectPolicy' is clicked on
+
+2019-04-25 17:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/SelectPolicy' is clicked on
+
+2019-04-25 17:06:55 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-04-25 17:07:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 17:07:00 - [TEST_STEP][PASSED] - setText(findTestObject("TC10-Claim/ClaimantName"), "Jerry Miller", STOP_ON_FAILURE): Text 'Jerry Miller' is set on object 'Object Repository/TC10-Claim/ClaimantName'
+
+2019-04-25 17:07:00 - [MESSAGE][PASSED] - Text 'Jerry Miller' is set on object 'Object Repository/TC10-Claim/ClaimantName'
+
+2019-04-25 17:07:00 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/ClickDateOfLossFields"), STOP_ON_FAILURE): Object: 'Object Repository/TC10-Claim/ClickDateOfLossFields' is clicked on
+
+2019-04-25 17:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/ClickDateOfLossFields' is clicked on
+
+2019-04-25 17:07:01 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC10-Claim/DatePickerYear"), "2019", false, STOP_ON_FAILURE): All options with label '2019' are selected in object 'Object Repository/TC10-Claim/DatePickerYear' 
+
+2019-04-25 17:07:01 - [MESSAGE][PASSED] - All options with label '2019' are selected in object 'Object Repository/TC10-Claim/DatePickerYear' 
+
+2019-04-25 17:07:01 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC10-Claim/DatePickerMonth"), "Apr", false, STOP_ON_FAILURE): All options with label 'Apr' are selected in object 'Object Repository/TC10-Claim/DatePickerMonth' 
+
+2019-04-25 17:07:01 - [MESSAGE][PASSED] - All options with label 'Apr' are selected in object 'Object Repository/TC10-Claim/DatePickerMonth' 
+
+2019-04-25 17:07:01 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/DatePickerDay"), STOP_ON_FAILURE): Object: 'Object Repository/TC10-Claim/DatePickerDay' is clicked on
+
+2019-04-25 17:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/DatePickerDay' is clicked on
+
+2019-04-25 17:07:01 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-04-25 17:07:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 17:07:06 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/ClaimDateMadeTextBox"), STOP_ON_FAILURE): Object: 'Object Repository/TC10-Claim/ClaimDateMadeTextBox' is clicked on
+
+2019-04-25 17:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/ClaimDateMadeTextBox' is clicked on
+
+2019-04-25 17:07:06 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/DatePickerYear"), STOP_ON_FAILURE): Object: 'Object Repository/TC10-Claim/DatePickerYear' is clicked on
+
+2019-04-25 17:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/DatePickerYear' is clicked on
+
+2019-04-25 17:07:06 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/DatePickerMonth"), STOP_ON_FAILURE): Object: 'Object Repository/TC10-Claim/DatePickerMonth' is clicked on
+
+2019-04-25 17:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/DatePickerMonth' is clicked on
+
+2019-04-25 17:07:06 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/DatePickerDay"), STOP_ON_FAILURE): Object: 'Object Repository/TC10-Claim/DatePickerDay' is clicked on
+
+2019-04-25 17:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/DatePickerDay' is clicked on
+
+2019-04-25 17:07:06 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-04-25 17:07:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 17:07:11 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/CauseOfLossC"), STOP_ON_FAILURE): Object: 'Object Repository/TC10-Claim/CauseOfLossC' is clicked on
+
+2019-04-25 17:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/CauseOfLossC' is clicked on
+
+2019-04-25 17:07:11 - [TEST_STEP][PASSED] - setText(findTestObject("TC10-Claim/DamageRes"), "Accidental Damage", STOP_ON_FAILURE): Text 'Accidental Damage' is set on object 'Object Repository/TC10-Claim/DamageRes'
+
+2019-04-25 17:07:11 - [MESSAGE][PASSED] - Text 'Accidental Damage' is set on object 'Object Repository/TC10-Claim/DamageRes'
+
+2019-04-25 17:07:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC10-Claim/DamageRes"), Keys.chord(ENTER), STOP_ON_FAILURE): Keys 'ENTER + ' sent to object: 'Object Repository/TC10-Claim/DamageRes'
+
+2019-04-25 17:07:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC10-Claim/DamageRes'
+
+2019-04-25 17:07:11 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2019-04-25 17:07:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 17:07:13 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/LossLocation"), STOP_ON_FAILURE): Object: 'Object Repository/TC10-Claim/LossLocation' is clicked on
+
+2019-04-25 17:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/LossLocation' is clicked on
+
+2019-04-25 17:07:14 - [TEST_STEP][PASSED] - setText(findTestObject("TC10-Claim/CountryName"), "India", STOP_ON_FAILURE): Text 'India' is set on object 'Object Repository/TC10-Claim/CountryName'
+
+2019-04-25 17:07:14 - [MESSAGE][PASSED] - Text 'India' is set on object 'Object Repository/TC10-Claim/CountryName'
+
+2019-04-25 17:07:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC10-Claim/CountryName"), Keys.chord(ENTER), STOP_ON_FAILURE): Keys 'ENTER + ' sent to object: 'Object Repository/TC10-Claim/CountryName'
+
+2019-04-25 17:07:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC10-Claim/CountryName'
+
+2019-04-25 17:07:14 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-25 17:07:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 17:07:17 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/SaveClaimButton"), STOP_ON_FAILURE): Object: 'Object Repository/TC10-Claim/SaveClaimButton' is clicked on
+
+2019-04-25 17:07:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/SaveClaimButton' is clicked on
+
+2019-04-25 17:07:17 - [TEST_STEP][FAILED] - delay(3, STOP_ON_FAILURE): delay(3, STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/TC10-Claim/ClaimRefNo'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at TC10-ClaimManagement.run(TC10-ClaimManagement:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556192132262.run(TempTestSuite1556192132262.groovy:35)
+
+
+2019-04-25 17:07:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 17:07:20 - [MESSAGE][FAILED] - delay(3, STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/TC10-Claim/ClaimRefNo'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at TC10-ClaimManagement.run(TC10-ClaimManagement:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556192132262.run(TempTestSuite1556192132262.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-25 17:05:54 - [TEST_CASE][FAILED] - Test Cases/TC10-ClaimManagement: Test Cases/TC10-ClaimManagement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/TC10-Claim/ClaimRefNo'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at TC10-ClaimManagement.run(TC10-ClaimManagement:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556192132262.run(TempTestSuite1556192132262.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-25 17:05:34 - [TEST_SUITE][FAILED] - Claim: Test Cases/TC10-ClaimManagement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/TC10-Claim/ClaimRefNo'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at TC10-ClaimManagement.run(TC10-ClaimManagement:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556192132262.run(TempTestSuite1556192132262.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-04-25 17:05:34 - [TEST_SUITE][FAILED] - Claim: Test Cases/TC10-ClaimManagement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/TC10-Claim/ClaimRefNo'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at TC10-ClaimManagement.run(TC10-ClaimManagement:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556192132262.run(TempTestSuite1556192132262.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

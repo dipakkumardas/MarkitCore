@@ -19,4 +19,11 @@
       <masked>false</masked>
       <name>MGA_Comission_Amount</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9805e1c8-674b-4c46-b8a2-f194b59f51d1</id>
+      <masked>false</masked>
+      <name>MGA_Comm_Amt</name>
+   </variable>
 </TestCaseEntity>

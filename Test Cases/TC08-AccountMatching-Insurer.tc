@@ -19,4 +19,11 @@
       <masked>false</masked>
       <name>Insurer_Comission_Amount</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>484a7b71-40a0-4bf2-9b17-fe633797eb6a</id>
+      <masked>false</masked>
+      <name>Insur_Comm_Amt</name>
+   </variable>
 </TestCaseEntity>

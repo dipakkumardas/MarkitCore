@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TrialBalance,Chrome 74.0.3729.108,,2019-04-30 16:19:32,2019-04-30 16:20:30,58.680s,FAILED
+,,,,,,
+Test Cases/TC01-LoginApplication,Chrome 74.0.3729.108,,2019-04-30 16:19:42,2019-04-30 16:19:52,10.547s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-30 16:19:42,2019-04-30 16:19:42,0.001s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 74.0.3729.108,,2019-04-30 16:19:42,2019-04-30 16:19:42,0.002s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Chrome 74.0.3729.108,,2019-04-30 16:19:42,2019-04-30 16:19:42,0.227s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Chrome 74.0.3729.108,,2019-04-30 16:19:42,2019-04-30 16:19:42,0.145s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-30 16:19:42,2019-04-30 16:19:46,4.024s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-04-30 16:19:46,2019-04-30 16:19:46,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Chrome 74.0.3729.108,,2019-04-30 16:19:46,2019-04-30 16:19:52,5.944s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 74.0.3729.108,,2019-04-30 16:19:52,2019-04-30 16:19:52,0.000s,NOT_RUN
+log.logInfo(“Dipak”),Chrome 74.0.3729.108,,2019-04-30 16:19:52,2019-04-30 16:19:52,0.000s,NOT_RUN
+,,,,,,
+Test Cases/TC11-TrialBalanceReport,Chrome 74.0.3729.108,,2019-04-30 16:19:52,2019-04-30 16:20:29,37.121s,FAILED
+waitForJQueryLoad(5),Chrome 74.0.3729.108,,2019-04-30 16:19:53,2019-04-30 16:19:53,0.689s,PASSED
+"scrollToElement(findTestObject(""TC11-TrialBalance/Report""), 4)",Chrome 74.0.3729.108,,2019-04-30 16:19:53,2019-04-30 16:19:53,0.091s,PASSED
+"click(findTestObject(""TC11-TrialBalance/Report""))",Chrome 74.0.3729.108,,2019-04-30 16:19:53,2019-04-30 16:19:53,0.079s,PASSED
+delay(4),Chrome 74.0.3729.108,,2019-04-30 16:19:53,2019-04-30 16:19:57,4.005s,PASSED
+"click(findTestObject(""TC11-TrialBalance/TrialBalance""))",Chrome 74.0.3729.108,,2019-04-30 16:19:57,2019-04-30 16:19:58,0.602s,FAILED
+waitForJQueryLoad(4),Chrome 74.0.3729.108,,2019-04-30 16:19:58,2019-04-30 16:19:58,0.022s,PASSED
+"selectOptionByLabel(findTestObject(""TC11-TrialBalance/SelectCurrency""), ""USD"", false)",Chrome 74.0.3729.108,,2019-04-30 16:19:58,2019-04-30 16:20:29,31.458s,FAILED

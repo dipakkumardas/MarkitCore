@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Claim" time="41" tests="1" failures="1" errors="0">
+   <testsuite name="Claim" tests="1" failures="1" errors="0" time="41" timestamp="2019-04-25 15:59:32" hostname="dipak - DIPAKDAS-PC.indusnettechnologies.com" id="Test Suites/Claim">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\MarkitCore\\CoreApplication\\Reports\\Claim\\20190425_155930"/>
+         <property name="logFiles" value="E:\\MarkitCore\\CoreApplication\\Reports\\Claim\\20190425_155930\\execution0.log"/>
+         <property name="attachments" value="E:\\MarkitCore\\CoreApplication\\Reports\\Claim\\20190425_155930\\1556188204926.png, E:\\MarkitCore\\CoreApplication\\Reports\\Claim\\20190425_155930\\1556188206210.png, E:\\MarkitCore\\CoreApplication\\Reports\\Claim\\20190425_155930\\1556188206615.png, E:\\MarkitCore\\CoreApplication\\Reports\\Claim\\20190425_155930\\1556188207061.png, E:\\MarkitCore\\CoreApplication\\Reports\\Claim\\20190425_155930\\1556188207419.png"/>
+         <property name="hostName" value="dipak - DIPAKDAS-PC.indusnettechnologies.com"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 74.0.3729.108"/>
+         <property name="hostAddress" value="10.0.12.237"/>
+         <property name="sessionId" value="565067267c5845f7169361a975a68afa"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC01-LoginApplication" classname="Test Cases/TC01-LoginApplication" status="PASSED">
+         <system-out><![CDATA[2019-04-25 15:59:41 - [TEST_CASE][PASSED] - Test Cases/TC01-LoginApplication: Test Cases/TC01-LoginApplication
+
+2019-04-25 15:59:41 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2019-04-25 15:59:41 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2019-04-25 15:59:41 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"): NOT_RUN: navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display")
+
+2019-04-25 15:59:41 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display")
+
+2019-04-25 15:59:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username"), "dDasTester"): Text 'dDasTester' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'
+
+2019-04-25 15:59:41 - [MESSAGE][PASSED] - Text 'dDasTester' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'
+
+2019-04-25 15:59:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password"), "Czybm6R*"): Text 'Czybm6R*' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'
+
+2019-04-25 15:59:41 - [MESSAGE][PASSED] - Text 'Czybm6R*' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'
+
+2019-04-25 15:59:41 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2019-04-25 15:59:45 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-25 15:59:45 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2019-04-25 15:59:45 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2019-04-25 15:59:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login")): Object: 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login' is clicked on
+
+2019-04-25 15:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login' is clicked on
+
+2019-04-25 15:59:49 - [TEST_STEP][NOT_RUN] - log = new com.kms.katalon.core.logging.KeywordLogger(): NOT_RUN: log = new com.kms.katalon.core.logging.KeywordLogger()
+
+2019-04-25 15:59:49 - [MESSAGE][NOT_RUN] - NOT_RUN: log = new com.kms.katalon.core.logging.KeywordLogger()
+
+2019-04-25 15:59:49 - [TEST_STEP][NOT_RUN] - log.logInfo(“Dipak”): NOT_RUN: log.logInfo(“Dipak”)
+
+2019-04-25 15:59:49 - [MESSAGE][NOT_RUN] - NOT_RUN: log.logInfo(“Dipak”)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC10-ClaimManagement" classname="Test Cases/TC10-ClaimManagement" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC10-ClaimManagement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'Dipak Das' of object 'Object Repository/TC10-Claim/ClientSearch' 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$5.call(Unknown Source)
+	at TC10-ClaimManagement.run(TC10-ClaimManagement:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556188170117.run(TempTestSuite1556188170117.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-25 15:59:49 - [TEST_CASE][FAILED] - Test Cases/TC10-ClaimManagement: Test Cases/TC10-ClaimManagement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'Dipak Das' of object 'Object Repository/TC10-Claim/ClientSearch' 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$5.call(Unknown Source)
+	at TC10-ClaimManagement.run(TC10-ClaimManagement:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556188170117.run(TempTestSuite1556188170117.groovy:35)
+
+
+2019-04-25 15:59:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-25 15:59:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 15:59:52 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/Claims")): Object: 'Object Repository/TC10-Claim/Claims' is clicked on
+
+2019-04-25 15:59:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/Claims' is clicked on
+
+2019-04-25 15:59:52 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-04-25 15:59:56 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-25 15:59:56 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/ClaimManagement")): Object: 'Object Repository/TC10-Claim/ClaimManagement' is clicked on
+
+2019-04-25 15:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/ClaimManagement' is clicked on
+
+2019-04-25 15:59:57 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-04-25 15:59:58 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-25 15:59:58 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/AddClaimButton")): Object: 'Object Repository/TC10-Claim/AddClaimButton' is clicked on
+
+2019-04-25 15:59:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/AddClaimButton' is clicked on
+
+2019-04-25 15:59:59 - [TEST_STEP][PASSED] - waitForJQueryLoad(4): jQuery is ready.
+
+2019-04-25 16:00:00 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-25 16:00:00 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/PolicyRefNo")): Object: 'Object Repository/TC10-Claim/PolicyRefNo' is clicked on
+
+2019-04-25 16:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/PolicyRefNo' is clicked on
+
+2019-04-25 16:00:00 - [TEST_STEP][PASSED] - setText(findTestObject("TC10-Claim/SetPolicyNo"), PolicyNo_Claim): Text 'DASD/POLICY/002823' is set on object 'Object Repository/TC10-Claim/SetPolicyNo'
+
+2019-04-25 16:00:02 - [MESSAGE][PASSED] - Text 'DASD/POLICY/002823' is set on object 'Object Repository/TC10-Claim/SetPolicyNo'
+
+2019-04-25 16:00:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-25 16:00:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 16:00:04 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/FindPolicyButton")): Object: 'Object Repository/TC10-Claim/FindPolicyButton' is clicked on
+
+2019-04-25 16:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/FindPolicyButton' is clicked on
+
+2019-04-25 16:00:04 - [TEST_STEP][NOT_RUN] - delay(5): NOT_RUN: delay(5)
+
+2019-04-25 16:00:04 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(5)
+
+2019-04-25 16:00:04 - [TEST_STEP][NOT_RUN] - click(findTestObject("TC10-Claim/CloseButton")): NOT_RUN: click(findTestObject("TC10-Claim/CloseButton"))
+
+2019-04-25 16:00:04 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TC10-Claim/CloseButton"))
+
+2019-04-25 16:00:04 - [TEST_STEP][NOT_RUN] - delay(5): NOT_RUN: delay(5)
+
+2019-04-25 16:00:04 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(5)
+
+2019-04-25 16:00:04 - [TEST_STEP][NOT_RUN] - click(findTestObject("TC10-Claim/ClientType")): NOT_RUN: click(findTestObject("TC10-Claim/ClientType"))
+
+2019-04-25 16:00:04 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("TC10-Claim/ClientType"))
+
+2019-04-25 16:00:04 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-04-25 16:00:04 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-25 16:00:04 - [TEST_STEP][FAILED] - selectOptionByLabel(findTestObject("TC10-Claim/ClientSearch"), "Dipak Das", false): Unable to select option by label 'Dipak Das' of object 'Object Repository/TC10-Claim/ClientSearch' 
+
+2019-04-25 16:00:05 - [MESSAGE][FAILED] - Unable to select option by label 'Dipak Das' of object 'Object Repository/TC10-Claim/ClientSearch' 
+[[ATTACHMENT|E:\\MarkitCore\\CoreApplication\\Reports\\Claim\\20190425_155930\\1556188204926.png]]
+
+2019-04-25 16:00:05 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC10-Claim/ProductSearch"), "BasicDemoProduct", false): All options with label 'BasicDemoProduct' are selected in object 'Object Repository/TC10-Claim/ProductSearch' 
+
+2019-04-25 16:00:05 - [MESSAGE][PASSED] - All options with label 'BasicDemoProduct' are selected in object 'Object Repository/TC10-Claim/ProductSearch' 
+
+2019-04-25 16:00:05 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/SearchPolicy")): Object: 'Object Repository/TC10-Claim/SearchPolicy' is clicked on
+
+2019-04-25 16:00:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/SearchPolicy' is clicked on
+
+2019-04-25 16:00:05 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-04-25 16:00:05 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-25 16:00:05 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC10-Claim/FindPolicyRefNo"), PolicyNo_Claim, false): All options with label 'DASD/POLICY/002823' are selected in object 'Object Repository/TC10-Claim/FindPolicyRefNo' 
+
+2019-04-25 16:00:06 - [MESSAGE][PASSED] - All options with label 'DASD/POLICY/002823' are selected in object 'Object Repository/TC10-Claim/FindPolicyRefNo' 
+
+2019-04-25 16:00:06 - [TEST_STEP][PASSED] - click(findTestObject("TC10-Claim/SelectPolicy")): Object: 'Object Repository/TC10-Claim/SelectPolicy' is clicked on
+
+2019-04-25 16:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TC10-Claim/SelectPolicy' is clicked on
+
+2019-04-25 16:00:06 - [TEST_STEP][FAILED] - setText(findTestObject("TC10-Claim/ClaimantName"), "Jerry Miller"): Unable to set text 'Jerry Miller' of object 'Object Repository/TC10-Claim/ClaimantName'
+
+2019-04-25 16:00:06 - [MESSAGE][FAILED] - Unable to set text 'Jerry Miller' of object 'Object Repository/TC10-Claim/ClaimantName'
+[[ATTACHMENT|E:\\MarkitCore\\CoreApplication\\Reports\\Claim\\20190425_155930\\1556188206210.png]]
+
+2019-04-25 16:00:06 - [TEST_STEP][FAILED] - click(findTestObject("TC10-Claim/ClickDateOfLossFields")): Unable to click on object 'Object Repository/TC10-Claim/ClickDateOfLossFields'
+
+2019-04-25 16:00:06 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC10-Claim/ClickDateOfLossFields'
+[[ATTACHMENT|E:\\MarkitCore\\CoreApplication\\Reports\\Claim\\20190425_155930\\1556188206615.png]]
+
+2019-04-25 16:00:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC10-Claim/DatePickerYear"), "2019", false): All options with label '2019' are selected in object 'Object Repository/TC10-Claim/DatePickerYear' 
+
+2019-04-25 16:00:06 - [MESSAGE][PASSED] - All options with label '2019' are selected in object 'Object Repository/TC10-Claim/DatePickerYear' 
+
+2019-04-25 16:00:06 - [TEST_STEP][FAILED] - selectOptionByLabel(findTestObject("TC10-Claim/DatePickerMonth"), "Apr", false): Unable to select option by label 'Apr' of object 'Object Repository/TC10-Claim/DatePickerMonth' 
+
+2019-04-25 16:00:07 - [MESSAGE][FAILED] - Unable to select option by label 'Apr' of object 'Object Repository/TC10-Claim/DatePickerMonth' 
+[[ATTACHMENT|E:\\MarkitCore\\CoreApplication\\Reports\\Claim\\20190425_155930\\1556188207061.png]]
+
+2019-04-25 16:00:07 - [TEST_STEP][FAILED] - click(findTestObject("TC10-Claim/DatePickerDay")): Unable to click on object 'Object Repository/TC10-Claim/DatePickerDay'
+
+2019-04-25 16:00:07 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC10-Claim/DatePickerDay'
+[[ATTACHMENT|E:\\MarkitCore\\CoreApplication\\Reports\\Claim\\20190425_155930\\1556188207419.png]]
+
+2019-04-25 16:00:07 - [TEST_STEP][FAILED] - delay(5): delay(5) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'Dipak Das' of object 'Object Repository/TC10-Claim/ClientSearch' 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$5.call(Unknown Source)
+	at TC10-ClaimManagement.run(TC10-ClaimManagement:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556188170117.run(TempTestSuite1556188170117.groovy:35)
+
+
+2019-04-25 16:00:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 16:00:12 - [MESSAGE][FAILED] - delay(5) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'Dipak Das' of object 'Object Repository/TC10-Claim/ClientSearch' 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$5.call(Unknown Source)
+	at TC10-ClaimManagement.run(TC10-ClaimManagement:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556188170117.run(TempTestSuite1556188170117.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-25 15:59:49 - [TEST_CASE][FAILED] - Test Cases/TC10-ClaimManagement: Test Cases/TC10-ClaimManagement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'Dipak Das' of object 'Object Repository/TC10-Claim/ClientSearch' 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$5.call(Unknown Source)
+	at TC10-ClaimManagement.run(TC10-ClaimManagement:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556188170117.run(TempTestSuite1556188170117.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-25 15:59:32 - [TEST_SUITE][FAILED] - Claim: Test Cases/TC10-ClaimManagement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'Dipak Das' of object 'Object Repository/TC10-Claim/ClientSearch' 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$5.call(Unknown Source)
+	at TC10-ClaimManagement.run(TC10-ClaimManagement:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556188170117.run(TempTestSuite1556188170117.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-04-25 15:59:32 - [TEST_SUITE][FAILED] - Claim: Test Cases/TC10-ClaimManagement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'Dipak Das' of object 'Object Repository/TC10-Claim/ClientSearch' 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$5.call(Unknown Source)
+	at TC10-ClaimManagement.run(TC10-ClaimManagement:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556188170117.run(TempTestSuite1556188170117.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

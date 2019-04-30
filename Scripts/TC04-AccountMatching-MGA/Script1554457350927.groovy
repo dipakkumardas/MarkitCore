@@ -62,16 +62,22 @@ WebUI.delay(4)
 
 MGA_Comission_Amount = WebUI.getText(findTestObject('TC04-AccountMatching-MGA/MGA_Amount'))
 
-WebUI.scrollToElement(findTestObject('TC04-AccountMatching-MGA/PAYFULL'), 5)
+MGA_Comm_Amt = CustomKeywords.'subString.FatchSubstringValue.SubString'(MGA_Comission_Amount)
 
-WebUI.setText(findTestObject('TC04-AccountMatching-MGA/PAYFULL'), MGA_Comission_Amount)
+WebUI.delay(4)
+
+not_run: WebUI.scrollToElement(findTestObject('TC04-AccountMatching-MGA/PayFullClick'), 5)
+
+WebUI.click(findTestObject('TC04-AccountMatching-MGA/PayFullClick'))
+
+not_run: WebUI.setText(findTestObject('TC04-AccountMatching-MGA/PAYFULL'), MGA_Comission_Amount)
 
 WebUI.click(findTestObject('TC04-AccountMatching-MGA/MatchAmount'))
 
 WebUI.delay(5)
 
 CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('E:\\MarkitCore\\CoreApplication\\Data Files\\TestData\\Comission.xlsx', 
-    'Sheet1', MGA_Comission_Amount)
+    'MGA', MGA_Comm_Amt)
 
 log.logInfo(MGA_Comission_Amount)
 

@@ -62,16 +62,22 @@ WebUI.delay(4)
 
 Insurer_Comission_Amount = WebUI.getText(findTestObject('TC04-AccountMatching-MGA/MGA_Amount'))
 
-WebUI.scrollToElement(findTestObject('TC04-AccountMatching-MGA/PAYFULL'), 5)
+Insur_Comm_Amt = CustomKeywords.'subString.FatchSubstringValue.SubString'(Insurer_Comission_Amount)
 
-WebUI.setText(findTestObject('TC04-AccountMatching-MGA/PAYFULL'), Insurer_Comission_Amount)
+not_run: WebUI.scrollToElement(findTestObject('TC04-AccountMatching-MGA/PAYFULL'), 5)
+
+not_run: WebUI.setText(findTestObject('TC04-AccountMatching-MGA/PAYFULL'), Insurer_Comission_Amount)
+
+WebUI.click(findTestObject('TC04-AccountMatching-MGA/PayFullClick'))
+
+WebUI.delay(4)
 
 WebUI.click(findTestObject('TC04-AccountMatching-MGA/MatchAmount'))
 
 WebUI.delay(5)
 
-CustomKeywords.'com.excel.helper.InsurerComission.updateTheExcel'('E:\\MarkitCore\\CoreApplication\\Data Files\\TestData\\Comission.xlsx', 
-    'Sheet1', Insurer_Comission_Amount)
+CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('E:\\MarkitCore\\CoreApplication\\Data Files\\TestData\\Comission.xlsx', 
+    'Insurer', Insur_Comm_Amt)
 
-log.logInfo(Insurer_Comission_Amount)
+log.logInfo(Insur_Comm_Amt)
 

@@ -52,6 +52,8 @@ WebUI.delay(5)
 
 WebUI.setText(findTestObject('TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox'), MTA_Policy_No)
 
+WebUI.delay(4)
+
 WebUI.sendKeys(findTestObject('TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(4)
@@ -62,17 +64,24 @@ WebUI.click(findTestObject('TC04-AccountMatching-MGA/CheckBox'))
 
 WebUI.delay(4)
 
-MGA_Comission_Amount = WebUI.getText(findTestObject('TC04-AccountMatching-MGA/MGA_Amount'))
+BROKER_Comission_Amount = WebUI.getText(findTestObject('TC04-AccountMatching-MGA/MGA_Amount'))
 
+Broker_Comm_Amt = CustomKeywords.'subString.FatchSubstringValue.SubString'(BROKER_Comission_Amount)
 
-WebUI.scrollToElement(findTestObject('TC04-AccountMatching-MGA/PAYFULL'), 5)
+not_run: WebUI.scrollToElement(findTestObject('TC04-AccountMatching-MGA/PAYFULL'), 5)
 
-WebUI.setText(findTestObject('TC04-AccountMatching-MGA/PAYFULL'), MGA_Comission_Amount)
+not_run: WebUI.setText(findTestObject('TC04-AccountMatching-MGA/PAYFULL'), MGA_Comission_Amount)
+
+WebUI.click(findTestObject('TC04-AccountMatching-MGA/PayFullClick'))
+
+WebUI.delay(4)
 
 WebUI.click(findTestObject('TC04-AccountMatching-MGA/MatchAmount'))
 
 WebUI.delay(5)
 
+CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('E:\\MarkitCore\\CoreApplication\\Data Files\\TestData\\Comission.xlsx', 
+    'Broker', Broker_Comm_Amt)
 
-log.logInfo(MGA_Comission_Amount)
+log.logInfo(Broker_Comm_Amt)
 

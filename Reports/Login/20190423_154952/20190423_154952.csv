@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Chrome 73.0.3683.103,,2019-04-23 15:49:57,2019-04-23 15:50:32,34.735s,PASSED
+,,,,,,
+Test Cases/TC01-LoginApplication,Chrome 73.0.3683.103,,2019-04-23 15:50:17,2019-04-23 15:50:31,13.188s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-23 15:50:18,2019-04-23 15:50:18,0.005s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 73.0.3683.103,,2019-04-23 15:50:18,2019-04-23 15:50:18,0.002s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Chrome 73.0.3683.103,,2019-04-23 15:50:18,2019-04-23 15:50:19,0.890s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Chrome 73.0.3683.103,,2019-04-23 15:50:19,2019-04-23 15:50:19,0.311s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-23 15:50:19,2019-04-23 15:50:23,4.026s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-23 15:50:23,2019-04-23 15:50:23,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Chrome 73.0.3683.103,,2019-04-23 15:50:23,2019-04-23 15:50:31,7.593s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 73.0.3683.103,,2019-04-23 15:50:31,2019-04-23 15:50:31,0.002s,NOT_RUN
+log.logInfo(“Dipak”),Chrome 73.0.3683.103,,2019-04-23 15:50:31,2019-04-23 15:50:31,0.000s,NOT_RUN

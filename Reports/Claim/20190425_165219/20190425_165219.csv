@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Claim,Chrome 74.0.3729.108,,2019-04-25 16:52:21,2019-04-25 16:53:00,39.244s,FAILED
+,,,,,,
+Test Cases/TC01-LoginApplication,Chrome 74.0.3729.108,,2019-04-25 16:52:31,2019-04-25 16:52:41,10.137s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-25 16:52:31,2019-04-25 16:52:31,0.004s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 74.0.3729.108,,2019-04-25 16:52:31,2019-04-25 16:52:31,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Chrome 74.0.3729.108,,2019-04-25 16:52:31,2019-04-25 16:52:32,0.258s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Chrome 74.0.3729.108,,2019-04-25 16:52:32,2019-04-25 16:52:32,0.137s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:32,2019-04-25 16:52:36,4.023s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-04-25 16:52:36,2019-04-25 16:52:36,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Chrome 74.0.3729.108,,2019-04-25 16:52:36,2019-04-25 16:52:41,5.501s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 74.0.3729.108,,2019-04-25 16:52:41,2019-04-25 16:52:41,0.000s,NOT_RUN
+log.logInfo(“Dipak”),Chrome 74.0.3729.108,,2019-04-25 16:52:41,2019-04-25 16:52:41,0.000s,NOT_RUN
+,,,,,,
+Test Cases/TC10-ClaimManagement,Chrome 74.0.3729.108,This Test Case is used to claim management.,2019-04-25 16:52:41,2019-04-25 16:53:00,18.432s,FAILED
+"delay(3, STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:41,2019-04-25 16:52:44,3.005s,PASSED
+"click(findTestObject(""TC10-Claim/Claims""), STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:44,2019-04-25 16:52:45,0.093s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:45,2019-04-25 16:52:49,4.004s,PASSED
+"click(findTestObject(""TC10-Claim/ClaimManagement""), STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:49,2019-04-25 16:52:50,1.550s,PASSED
+"waitForJQueryLoad(5, STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:50,2019-04-25 16:52:51,0.582s,PASSED
+"click(findTestObject(""TC10-Claim/AddClaimButton""), STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:51,2019-04-25 16:52:52,1.383s,PASSED
+"waitForJQueryLoad(4, STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:52,2019-04-25 16:52:53,0.630s,PASSED
+"click(findTestObject(""TC10-Claim/PolicyRefNo""), STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:53,2019-04-25 16:52:53,0.229s,PASSED
+"setText(findTestObject(""TC10-Claim/SetPolicyNo""), PolicyNo_Claim, STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:53,2019-04-25 16:52:54,1.185s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:54,2019-04-25 16:52:56,2.009s,PASSED
+"click(findTestObject(""TC10-Claim/FindPolicyButton""), STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:56,2019-04-25 16:52:56,0.087s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:56,2019-04-25 16:52:56,0.001s,NOT_RUN
+"click(findTestObject(""TC10-Claim/CloseButton""), STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:56,2019-04-25 16:52:56,0.000s,NOT_RUN
+"delay(5, STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:56,2019-04-25 16:52:56,0.000s,NOT_RUN
+"click(findTestObject(""TC10-Claim/ClientType""), STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:56,2019-04-25 16:52:56,0.001s,NOT_RUN
+"delay(3, STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:56,2019-04-25 16:52:59,3.003s,PASSED
+"waitForJQueryLoad(5, STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:59,2019-04-25 16:52:59,0.022s,PASSED
+"selectOptionByLabel(findTestObject(""TC10-Claim/ClientSearch""), ""Dipak Das"", false, STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-25 16:52:59,2019-04-25 16:53:00,0.390s,FAILED

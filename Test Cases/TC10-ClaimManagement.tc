@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This Test Case is used to claim management.</description>
+   <name>TC10-ClaimManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67aec956-dc0c-4d2f-9a70-bf6d4a4d0019</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>3dde0c9f-e419-4dbc-be24-3a2d43edd9b8</id>
+      <masked>false</masked>
+      <name>PolicyNo_Claim</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5c1771af-05ba-49a6-a3d8-2c8fa65c4655</id>
+      <masked>false</masked>
+      <name>ClaimRef_No</name>
+   </variable>
+</TestCaseEntity>
