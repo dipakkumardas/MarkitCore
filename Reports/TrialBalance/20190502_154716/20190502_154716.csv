@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TrialBalance,Chrome 74.0.3729.131,,2019-05-02 15:47:40,2019-05-02 15:49:13,1m - 32.635s,ERROR
+,,,,,,
+Test Cases/TC01-LoginApplication,Chrome 74.0.3729.131,,2019-05-02 15:48:23,2019-05-02 15:48:35,11.635s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-02 15:48:23,2019-05-02 15:48:23,0.002s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 74.0.3729.131,,2019-05-02 15:48:23,2019-05-02 15:48:23,0.000s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Chrome 74.0.3729.131,,2019-05-02 15:48:23,2019-05-02 15:48:24,0.354s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Chrome 74.0.3729.131,,2019-05-02 15:48:24,2019-05-02 15:48:24,0.175s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-02 15:48:24,2019-05-02 15:48:28,4.022s,PASSED
+maximizeWindow(),Chrome 74.0.3729.131,,2019-05-02 15:48:28,2019-05-02 15:48:28,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Chrome 74.0.3729.131,,2019-05-02 15:48:28,2019-05-02 15:48:35,6.708s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 74.0.3729.131,,2019-05-02 15:48:35,2019-05-02 15:48:35,0.001s,NOT_RUN
+log.logInfo(“Dipak”),Chrome 74.0.3729.131,,2019-05-02 15:48:35,2019-05-02 15:48:35,0.001s,NOT_RUN
+,,,,,,
+Test Cases/TC11-TrialBalanceReport,Chrome 74.0.3729.131,,2019-05-02 15:48:35,2019-05-02 15:49:12,36.954s,ERROR
+waitForJQueryLoad(5),Chrome 74.0.3729.131,,2019-05-02 15:48:35,2019-05-02 15:48:35,0.146s,PASSED
+"scrollToElement(findTestObject(""TC11-TrialBalance/Report""), 4)",Chrome 74.0.3729.131,,2019-05-02 15:48:35,2019-05-02 15:48:35,0.084s,PASSED
+"click(findTestObject(""TC11-TrialBalance/Report""))",Chrome 74.0.3729.131,,2019-05-02 15:48:35,2019-05-02 15:48:35,0.107s,PASSED
+delay(4),Chrome 74.0.3729.131,,2019-05-02 15:48:35,2019-05-02 15:48:39,4.014s,PASSED
+"scrollToElement(findTestObject(""TC11-TrialBalance/TrialBalance""), 4)",Chrome 74.0.3729.131,,2019-05-02 15:48:39,2019-05-02 15:48:39,0.093s,PASSED
+"click(findTestObject(""TC11-TrialBalance/TrialBalance""))",Chrome 74.0.3729.131,,2019-05-02 15:48:39,2019-05-02 15:48:43,3.058s,PASSED
+waitForJQueryLoad(4),Chrome 74.0.3729.131,,2019-05-02 15:48:43,2019-05-02 15:48:44,1.636s,PASSED
+"selectOptionByLabel(findTestObject(""TC11-TrialBalance/SelectCurrency""), ""USD"", false)",Chrome 74.0.3729.131,,2019-05-02 15:48:44,2019-05-02 15:48:45,0.483s,PASSED
+delay(4),Chrome 74.0.3729.131,,2019-05-02 15:48:45,2019-05-02 15:48:49,4.004s,PASSED
+"click(findTestObject(""TC11-TrialBalance/SelectEntity""))",Chrome 74.0.3729.131,,2019-05-02 15:48:49,2019-05-02 15:48:49,0.157s,PASSED
+delay(4),Chrome 74.0.3729.131,,2019-05-02 15:48:49,2019-05-02 15:48:53,4.002s,PASSED
+"setText(findTestObject(""TC11-TrialBalance/TypeEntityName""), ""NEW MGA"")",Chrome 74.0.3729.131,,2019-05-02 15:48:53,2019-05-02 15:48:53,0.272s,PASSED
+"sendKeys(findTestObject(""TC11-TrialBalance/TypeEntityName""), Keys.chord(ENTER))",Chrome 74.0.3729.131,,2019-05-02 15:48:53,2019-05-02 15:48:53,0.066s,PASSED
+delay(5),Chrome 74.0.3729.131,,2019-05-02 15:48:53,2019-05-02 15:48:58,5.004s,PASSED
+"click(findTestObject(""TC11-TrialBalance/MGACreditor""))",Chrome 74.0.3729.131,,2019-05-02 15:48:58,2019-05-02 15:49:00,1.471s,PASSED
+delay(4),Chrome 74.0.3729.131,,2019-05-02 15:49:00,2019-05-02 15:49:04,4.002s,PASSED
+"setText(findTestObject(""TC11-TrialBalance/SearchPolicy""), findTestData(""TestData/MTA_PolicyNO"").getValue(1, 1))",Chrome 74.0.3729.131,,2019-05-02 15:49:04,2019-05-02 15:49:07,3.247s,PASSED
+"sendKeys(findTestObject(""TC11-TrialBalance/SearchPolicy""), Keys.chord(ENTER))",Chrome 74.0.3729.131,,2019-05-02 15:49:07,2019-05-02 15:49:07,0.046s,PASSED
+delay(4),Chrome 74.0.3729.131,,2019-05-02 15:49:07,2019-05-02 15:49:11,4.026s,PASSED
+"MGA_Comm_Value = getText(findTestObject(""TC11-TrialBalance/MGAValueCapture""))",Chrome 74.0.3729.131,,2019-05-02 15:49:11,2019-05-02 15:49:11,0.126s,PASSED
+"com.excel.helper.ExcelHelper.updateTheExcel(""E:\MarkitCore\CoreApplication\Data Files\TestData\Comission.xlsx"", ""MGATrialBalance"", MGA_Comm_Value)",Chrome 74.0.3729.131,,2019-05-02 15:49:11,2019-05-02 15:49:12,0.503s,ERROR

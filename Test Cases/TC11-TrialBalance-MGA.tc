@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11-TrialBalance-MGA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dcb5a7fb-e700-4fe4-a086-dc80921e6db0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ae96ae78-a819-4ed5-ac37-efc3340de41e</id>
+      <masked>false</masked>
+      <name>PolicyNo_TrialBalance</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e76654a4-aa32-41ca-897e-c7bd7248a016</id>
+      <masked>false</masked>
+      <name>MGA_Comm_Value</name>
+   </variable>
+</TestCaseEntity>

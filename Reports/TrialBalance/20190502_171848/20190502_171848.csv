@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TrialBalance,Chrome 74.0.3729.131,,2019-05-02 17:18:50,2019-05-02 17:19:43,52.582s,PASSED
+,,,,,,
+Test Cases/TC01-LoginApplication,Chrome 74.0.3729.131,,2019-05-02 17:18:58,2019-05-02 17:19:08,10.732s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-02 17:18:58,2019-05-02 17:18:58,0.003s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 74.0.3729.131,,2019-05-02 17:18:58,2019-05-02 17:18:58,0.002s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Chrome 74.0.3729.131,,2019-05-02 17:18:58,2019-05-02 17:18:58,0.251s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Chrome 74.0.3729.131,,2019-05-02 17:18:58,2019-05-02 17:18:58,0.132s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-02 17:18:58,2019-05-02 17:19:02,4.022s,PASSED
+maximizeWindow(),Chrome 74.0.3729.131,,2019-05-02 17:19:02,2019-05-02 17:19:02,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Chrome 74.0.3729.131,,2019-05-02 17:19:02,2019-05-02 17:19:08,6.129s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 74.0.3729.131,,2019-05-02 17:19:08,2019-05-02 17:19:08,0.001s,NOT_RUN
+log.logInfo(“Dipak”),Chrome 74.0.3729.131,,2019-05-02 17:19:08,2019-05-02 17:19:08,0.001s,NOT_RUN
+,,,,,,
+Test Cases/TC12-TrialBalance-Insurer,Chrome 74.0.3729.131,,2019-05-02 17:19:08,2019-05-02 17:19:42,33.966s,PASSED
+waitForJQueryLoad(5),Chrome 74.0.3729.131,,2019-05-02 17:19:08,2019-05-02 17:19:08,0.053s,PASSED
+"scrollToElement(findTestObject(""TC11-TrialBalance/Report""), 4)",Chrome 74.0.3729.131,,2019-05-02 17:19:08,2019-05-02 17:19:09,0.040s,PASSED
+"click(findTestObject(""TC11-TrialBalance/Report""))",Chrome 74.0.3729.131,,2019-05-02 17:19:09,2019-05-02 17:19:09,0.100s,PASSED
+delay(4),Chrome 74.0.3729.131,,2019-05-02 17:19:09,2019-05-02 17:19:13,4.006s,PASSED
+"scrollToElement(findTestObject(""TC11-TrialBalance/TrialBalance""), 4)",Chrome 74.0.3729.131,,2019-05-02 17:19:13,2019-05-02 17:19:13,0.042s,PASSED
+"click(findTestObject(""TC11-TrialBalance/TrialBalance""))",Chrome 74.0.3729.131,,2019-05-02 17:19:13,2019-05-02 17:19:14,1.713s,PASSED
+waitForJQueryLoad(4),Chrome 74.0.3729.131,,2019-05-02 17:19:14,2019-05-02 17:19:16,1.116s,PASSED
+"selectOptionByLabel(findTestObject(""TC11-TrialBalance/SelectCurrency""), ""USD"", false)",Chrome 74.0.3729.131,,2019-05-02 17:19:16,2019-05-02 17:19:16,0.103s,PASSED
+delay(4),Chrome 74.0.3729.131,,2019-05-02 17:19:16,2019-05-02 17:19:20,4.003s,PASSED
+"click(findTestObject(""TC11-TrialBalance/SelectEntity""))",Chrome 74.0.3729.131,,2019-05-02 17:19:20,2019-05-02 17:19:20,0.129s,PASSED
+delay(4),Chrome 74.0.3729.131,,2019-05-02 17:19:20,2019-05-02 17:19:24,4.003s,PASSED
+"setText(findTestObject(""TC11-TrialBalance/TypeEntityName""), ""New Insurer"")",Chrome 74.0.3729.131,,2019-05-02 17:19:24,2019-05-02 17:19:24,0.238s,PASSED
+"sendKeys(findTestObject(""TC11-TrialBalance/TypeEntityName""), Keys.chord(ENTER))",Chrome 74.0.3729.131,,2019-05-02 17:19:24,2019-05-02 17:19:24,0.052s,PASSED
+delay(5),Chrome 74.0.3729.131,,2019-05-02 17:19:24,2019-05-02 17:19:29,5.002s,PASSED
+"scrollToElement(findTestObject(""TC11-TrialBalance/InsCreditor""), 4)",Chrome 74.0.3729.131,,2019-05-02 17:19:29,2019-05-02 17:19:29,0.028s,PASSED
+"click(findTestObject(""TC11-TrialBalance/InsCreditor""))",Chrome 74.0.3729.131,,2019-05-02 17:19:29,2019-05-02 17:19:31,2.127s,PASSED
+delay(5),Chrome 74.0.3729.131,,2019-05-02 17:19:31,2019-05-02 17:19:36,5.003s,PASSED
+"setText(findTestObject(""TC11-TrialBalance/SearchPolicy""), findTestData(""TestData/MTA_PolicyNO"").getValue(1, 1))",Chrome 74.0.3729.131,,2019-05-02 17:19:36,2019-05-02 17:19:37,0.957s,PASSED
+"sendKeys(findTestObject(""TC11-TrialBalance/SearchPolicy""), Keys.chord(ENTER))",Chrome 74.0.3729.131,,2019-05-02 17:19:37,2019-05-02 17:19:37,0.040s,PASSED
+delay(5),Chrome 74.0.3729.131,,2019-05-02 17:19:37,2019-05-02 17:19:42,5.021s,PASSED
