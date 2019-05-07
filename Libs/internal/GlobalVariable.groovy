@@ -14,6 +14,16 @@ public class GlobalVariable {
      */
     public static Object PolicyNo_Global
      
+    /**
+     * <p></p>
+     */
+    public static Object username
+     
+    /**
+     * <p></p>
+     */
+    public static Object password
+     
 
     static {
         try {
@@ -22,6 +32,8 @@ public class GlobalVariable {
             selectedVariables += RunConfiguration.getOverridingParameters()
     
             PolicyNo_Global = selectedVariables['PolicyNo_Global']
+            username = selectedVariables['username']
+            password = selectedVariables['password']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

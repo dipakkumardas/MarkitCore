@@ -55,7 +55,34 @@
    <testCaseLink>
       <guid>3a1c9475-a2ba-4204-a0ba-346fd636fe72</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC12-TrialBalance-Insurer</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>53bd0836-408c-4f1c-a75c-a1b72a6c975a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData/InsurerComission</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>53bd0836-408c-4f1c-a75c-a1b72a6c975a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Insurer Comission</value>
+         <variableId>e6fe6a04-a39e-43d3-b52c-5802ed129f4e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c7576fcf-e70a-47b8-b22e-388e21c23e23</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC13-TrialBalance-Broker</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>095b248a-29c5-4901-8367-4b2f0ed64117</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

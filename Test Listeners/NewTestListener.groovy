@@ -27,7 +27,8 @@ class NewTestListener {
 	@BeforeTestSuite
 	public void beforeTestSuiteListener(TestSuiteContext testSuite) {
 		WebUI.openBrowser('')
-		WebUI.navigateToUrl('https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display')
+		WebUI.navigateToUrl('https://dev.markit-systems.com/markit_coreV2/Sites/CoreTest/login/admin_display')
+		//WebUI.navigateToUrl('GlobalVariable.Url')
 		WebUI.maximizeWindow()
 	}
 

@@ -54,3 +54,14 @@ WebUI.sendKeys(findTestObject('TC11-TrialBalance/SearchPolicy'), Keys.chord(Keys
 
 WebUI.delay(5)
 
+def InsurerComm = WebUI.getText(findTestObject('TC12-TrialBalance-Insurer/InsurerValueCapture'))
+
+CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('E:\\MarkitCore\\CoreApplication\\Data Files\\TestData\\Comission.xlsx', 
+    'InsurerCommission', InsurerComm)
+
+WebUI.delay(3)
+
+WebUI.verifyEqual(findTestData('TestData/InsurerComission').getValue(1, 1), InsurerCommission)
+
+WebUI.delay(4)
+

@@ -19,10 +19,10 @@ not_run: WebUI.openBrowser('')
 not_run: WebUI.navigateToUrl('https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display')
 
 WebUI.setText(findTestObject('Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'), 
-    'dDasTester')
+    GlobalVariable.username)
 
 WebUI.setText(findTestObject('Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'), 
-    'Czybm6R*')
+    GlobalVariable.password)
 
 WebUI.delay(4, FailureHandling.STOP_ON_FAILURE)
 

@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>dad0ebc1-30f5-4901-95fd-6bbaa05d3eb6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e6fe6a04-a39e-43d3-b52c-5802ed129f4e</id>
+      <masked>false</masked>
+      <name>InsurerCommission</name>
+   </variable>
 </TestCaseEntity>

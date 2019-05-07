@@ -1,0 +1,82 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AllAccountMatching,,,2019-05-07 12:28:25,2019-05-07 12:34:51,6m - 25.683s,FAILED
+,,,,,,
+Test Cases/TC04-AccountMatching-MGA,,This is Account Matching OF MGA,2019-05-07 12:28:47,2019-05-07 12:30:46,1m - 58.533s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),,,2019-05-07 12:28:47,2019-05-07 12:28:47,0.001s,PASSED
+delay(3),,,2019-05-07 12:28:47,2019-05-07 12:28:51,3.021s,PASSED
+"scrollToElement(findTestObject(""TC04-AccountMatching-MGA/AccountManagement""), 5)",,,2019-05-07 12:28:51,2019-05-07 12:28:57,6.253s,FAILED
+"click(findTestObject(""TC04-AccountMatching-MGA/AccountManagement""))",,,2019-05-07 12:28:57,2019-05-07 12:29:03,6.017s,FAILED
+delay(5),,,2019-05-07 12:29:03,2019-05-07 12:29:03,0.002s,NOT_RUN
+"waitForElementVisible(findTestObject(""TC04-AccountMatching-MGA/AccountMatchingLink""), 4)",,,2019-05-07 12:29:03,2019-05-07 12:29:09,6.076s,FAILED
+"click(findTestObject(""TC04-AccountMatching-MGA/AccountMatchingLink""))",,,2019-05-07 12:29:09,2019-05-07 12:29:15,6.109s,FAILED
+delay(5),,,2019-05-07 12:29:15,2019-05-07 12:29:20,5.002s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/EntityType""), ""MGA"", false)",,,2019-05-07 12:29:20,2019-05-07 12:29:26,6.139s,FAILED
+delay(5),,,2019-05-07 12:29:26,2019-05-07 12:29:31,5.002s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/Entity""), ""NEW MGA"", false)",,,2019-05-07 12:29:31,2019-05-07 12:29:37,6.142s,FAILED
+"waitForElementClickable(findTestObject(""TC04-AccountMatching-MGA/ClickGoButton""), 5)",,,2019-05-07 12:29:37,2019-05-07 12:29:43,6.031s,FAILED
+"click(findTestObject(""TC04-AccountMatching-MGA/ClickGoButton""))",,,2019-05-07 12:29:43,2019-05-07 12:29:49,6.098s,FAILED
+waitForJQueryLoad(5),,,2019-05-07 12:29:49,2019-05-07 12:29:55,6.030s,FAILED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/SelectAccount""), ""ComissionOnly -- Allocated -- NEW MGA CommAccount -- USD"", false)",,,2019-05-07 12:29:55,2019-05-07 12:30:01,6.027s,FAILED
+delay(5),,,2019-05-07 12:30:01,2019-05-07 12:30:06,5.003s,PASSED
+"setText(findTestObject(""TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox""), MTA_Policy_No)",,,2019-05-07 12:30:06,2019-05-07 12:30:13,6.090s,FAILED
+"sendKeys(findTestObject(""TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox""), Keys.chord(ENTER))",,,2019-05-07 12:30:13,2019-05-07 12:30:19,6.043s,FAILED
+delay(5),,,2019-05-07 12:30:19,2019-05-07 12:30:24,5.002s,PASSED
+"waitForElementClickable(findTestObject(""TC04-AccountMatching-MGA/CheckBox""), 5)",,,2019-05-07 12:30:24,2019-05-07 12:30:30,6.068s,FAILED
+"click(findTestObject(""TC04-AccountMatching-MGA/CheckBox""))",,,2019-05-07 12:30:30,2019-05-07 12:30:36,6.023s,FAILED
+delay(4),,,2019-05-07 12:30:36,2019-05-07 12:30:40,4.002s,PASSED
+"MGA_Comission_Amount = getText(findTestObject(""TC04-AccountMatching-MGA/MGA_Amount""))",,,2019-05-07 12:30:40,2019-05-07 12:30:46,6.028s,FAILED
+MGA_Comm_Amt = subString.FatchSubstringValue.SubString(MGA_Comission_Amount),,,2019-05-07 12:30:46,2019-05-07 12:30:46,0.032s,FAILED
+,,,,,,
+Test Cases/TC07-AccountMatching-Broker,,Account matching of Broker Statement,2019-05-07 12:30:46,2019-05-07 12:32:52,2m - 5.859s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),,,2019-05-07 12:30:46,2019-05-07 12:30:46,0.001s,PASSED
+delay(3),,,2019-05-07 12:30:46,2019-05-07 12:30:49,3.001s,PASSED
+"scrollToElement(findTestObject(""TC04-AccountMatching-MGA/AccountManagement""), 5)",,,2019-05-07 12:30:49,2019-05-07 12:30:55,6.023s,FAILED
+"click(findTestObject(""TC04-AccountMatching-MGA/AccountManagement""))",,,2019-05-07 12:30:55,2019-05-07 12:31:01,6.073s,FAILED
+delay(5),,,2019-05-07 12:31:01,2019-05-07 12:31:01,0.001s,NOT_RUN
+"waitForElementVisible(findTestObject(""TC04-AccountMatching-MGA/AccountMatchingLink""), 4)",,,2019-05-07 12:31:01,2019-05-07 12:31:07,6.018s,FAILED
+"click(findTestObject(""TC04-AccountMatching-MGA/AccountMatchingLink""))",,,2019-05-07 12:31:07,2019-05-07 12:31:13,6.035s,FAILED
+delay(5),,,2019-05-07 12:31:13,2019-05-07 12:31:18,5.003s,PASSED
+delay(5),,,2019-05-07 12:31:18,2019-05-07 12:31:23,5.003s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/EntityType""), ""Broker"", false)",,,2019-05-07 12:31:23,2019-05-07 12:31:29,6.026s,FAILED
+delay(5),,,2019-05-07 12:31:29,2019-05-07 12:31:34,5.002s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/Entity""), ""New Broker"", false)",,,2019-05-07 12:31:34,2019-05-07 12:31:40,6.028s,FAILED
+"waitForElementClickable(findTestObject(""TC04-AccountMatching-MGA/ClickGoButton""), 5)",,,2019-05-07 12:31:40,2019-05-07 12:31:46,6.040s,FAILED
+"click(findTestObject(""TC04-AccountMatching-MGA/ClickGoButton""))",,,2019-05-07 12:31:46,2019-05-07 12:31:52,6.016s,FAILED
+waitForJQueryLoad(5),,,2019-05-07 12:31:52,2019-05-07 12:31:58,6.086s,FAILED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/SelectAccount""), ""COMMSION ACCOUNT -- Allocated -- DEFAULT-300013-USD -- USD"", false)",,,2019-05-07 12:31:58,2019-05-07 12:32:04,6.076s,FAILED
+delay(5),,,2019-05-07 12:32:04,2019-05-07 12:32:09,5.002s,PASSED
+"setText(findTestObject(""TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox""), MTA_Policy_No)",,,2019-05-07 12:32:09,2019-05-07 12:32:15,6.011s,FAILED
+delay(4),,,2019-05-07 12:32:15,2019-05-07 12:32:19,4.003s,PASSED
+"sendKeys(findTestObject(""TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox""), Keys.chord(ENTER))",,,2019-05-07 12:32:19,2019-05-07 12:32:25,6.020s,FAILED
+delay(4),,,2019-05-07 12:32:25,2019-05-07 12:32:29,4.002s,PASSED
+"waitForElementClickable(findTestObject(""TC04-AccountMatching-MGA/CheckBox""), 5)",,,2019-05-07 12:32:29,2019-05-07 12:32:35,6.021s,FAILED
+"click(findTestObject(""TC04-AccountMatching-MGA/CheckBox""))",,,2019-05-07 12:32:35,2019-05-07 12:32:42,6.083s,FAILED
+delay(4),,,2019-05-07 12:32:42,2019-05-07 12:32:46,4.002s,PASSED
+"BROKER_Comission_Amount = getText(findTestObject(""TC04-AccountMatching-MGA/MGA_Amount""))",,,2019-05-07 12:32:46,2019-05-07 12:32:52,6.015s,FAILED
+Broker_Comm_Amt = subString.FatchSubstringValue.SubString(BROKER_Comission_Amount),,,2019-05-07 12:32:52,2019-05-07 12:32:52,0.002s,FAILED
+,,,,,,
+Test Cases/TC08-AccountMatching-Insurer,,This is Account Matching Broker,2019-05-07 12:32:52,2019-05-07 12:34:50,1m - 58.392s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),,,2019-05-07 12:32:52,2019-05-07 12:32:52,0.001s,PASSED
+delay(3),,,2019-05-07 12:32:52,2019-05-07 12:32:55,3.003s,PASSED
+"scrollToElement(findTestObject(""TC04-AccountMatching-MGA/AccountManagement""), 5)",,,2019-05-07 12:32:55,2019-05-07 12:33:01,6.014s,FAILED
+"click(findTestObject(""TC04-AccountMatching-MGA/AccountManagement""))",,,2019-05-07 12:33:01,2019-05-07 12:33:07,6.097s,FAILED
+delay(5),,,2019-05-07 12:33:07,2019-05-07 12:33:07,0.001s,NOT_RUN
+"waitForElementVisible(findTestObject(""TC04-AccountMatching-MGA/AccountMatchingLink""), 4)",,,2019-05-07 12:33:07,2019-05-07 12:33:13,6.036s,FAILED
+"click(findTestObject(""TC04-AccountMatching-MGA/AccountMatchingLink""))",,,2019-05-07 12:33:13,2019-05-07 12:33:19,6.013s,FAILED
+delay(5),,,2019-05-07 12:33:19,2019-05-07 12:33:24,5.002s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/EntityType""), ""Insurer"", false)",,,2019-05-07 12:33:24,2019-05-07 12:33:30,6.080s,FAILED
+delay(5),,,2019-05-07 12:33:30,2019-05-07 12:33:35,5.002s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/Entity""), ""New Insurer"", false)",,,2019-05-07 12:33:35,2019-05-07 12:33:41,6.199s,FAILED
+"waitForElementClickable(findTestObject(""TC04-AccountMatching-MGA/ClickGoButton""), 5)",,,2019-05-07 12:33:41,2019-05-07 12:33:47,6.095s,FAILED
+"click(findTestObject(""TC04-AccountMatching-MGA/ClickGoButton""))",,,2019-05-07 12:33:47,2019-05-07 12:33:54,6.146s,FAILED
+waitForJQueryLoad(5),,,2019-05-07 12:33:54,2019-05-07 12:34:00,6.101s,FAILED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/SelectAccount""), ""New Insurer Comission Account -- Allocated -- New Insurer-COM-ACC -- USD"", false)",,,2019-05-07 12:34:00,2019-05-07 12:34:06,6.054s,FAILED
+delay(5),,,2019-05-07 12:34:06,2019-05-07 12:34:11,5.002s,PASSED
+"setText(findTestObject(""TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox""), MTA_Policy_No)",,,2019-05-07 12:34:11,2019-05-07 12:34:17,6.028s,FAILED
+"sendKeys(findTestObject(""TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox""), Keys.chord(ENTER))",,,2019-05-07 12:34:17,2019-05-07 12:34:23,6.022s,FAILED
+delay(5),,,2019-05-07 12:34:23,2019-05-07 12:34:28,5.002s,PASSED
+"waitForElementClickable(findTestObject(""TC04-AccountMatching-MGA/CheckBox""), 5)",,,2019-05-07 12:34:28,2019-05-07 12:34:34,6.061s,FAILED
+"click(findTestObject(""TC04-AccountMatching-MGA/CheckBox""))",,,2019-05-07 12:34:34,2019-05-07 12:34:40,6.103s,FAILED
+delay(4),,,2019-05-07 12:34:40,2019-05-07 12:34:44,4.001s,PASSED
+"Insurer_Comission_Amount = getText(findTestObject(""TC04-AccountMatching-MGA/MGA_Amount""))",,,2019-05-07 12:34:44,2019-05-07 12:34:50,6.086s,FAILED
+Insur_Comm_Amt = subString.FatchSubstringValue.SubString(Insurer_Comission_Amount),,,2019-05-07 12:34:50,2019-05-07 12:34:50,0.002s,FAILED

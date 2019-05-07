@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>3af4f965-9179-4991-89eb-379f548de577</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC02-CreatePolicy</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -160,7 +160,7 @@
    <testCaseLink>
       <guid>7c501557-811e-4fa5-8d04-7365100ba20e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC07-AccountMatching-Broker</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -193,7 +193,7 @@
    <testCaseLink>
       <guid>f5507a98-aadf-4c89-9001-c11222a664ba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC08-AccountMatching-Insurer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

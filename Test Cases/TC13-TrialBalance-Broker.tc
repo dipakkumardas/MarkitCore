@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13-TrialBalance-Broker</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d34e694-c1d2-4815-b4fe-a8e77c75b246</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>095b248a-29c5-4901-8367-4b2f0ed64117</id>
+      <masked>false</masked>
+      <name>BrokerCom</name>
+   </variable>
+</TestCaseEntity>
