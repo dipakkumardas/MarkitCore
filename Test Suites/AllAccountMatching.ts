@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>27249aeb-7d0d-4aa9-b663-2141beb3274b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC04-AccountMatching-MGA</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -52,7 +52,7 @@
    <testCaseLink>
       <guid>dcc5574f-5e85-4757-8669-04ab6a19580d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC07-AccountMatching-Broker</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
