@@ -19,13 +19,13 @@
    <testCaseLink>
       <guid>3af4f965-9179-4991-89eb-379f548de577</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC02-CreatePolicy</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b45416e5-22e3-43fb-8d6c-e76e16051958</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>ALL</iterationType>
             <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/TestData/PolicyDetails</testDataId>
@@ -106,7 +106,7 @@
    <testCaseLink>
       <guid>76c3e2dc-16f2-4fa9-a16d-100cb8d649c9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC05-PaymentSection</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

@@ -58,12 +58,20 @@ WebUI.delay(5)
 
 def BrokerCom = WebUI.getText(findTestObject('TC13-TrialBalance-Broker/BrokerValueCapture'))
 
-CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('E:\\MarkitCore\\CoreApplication\\Data Files\\TestData\\Comission.xlsx', 
-    'ExpectedBrokerComission', BrokerCom)
+CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('Data Files\\TestData\\Comission.xlsx', 'ExpectedBrokerComission', 
+    BrokerCom)
 
 WebUI.delay(3)
 
 WebUI.verifyEqual(findTestData('TestData/BrokerComission').getValue(1, 1), BrokerCom)
 
 WebUI.delay(4)
+
+WebUI.waitForElementClickable(findTestObject('TC04-AccountMatching-MGA/CloseButton'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('TC04-AccountMatching-MGA/CloseButton'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('TC11-TrialBalance/HomeLink'), 4, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('TC11-TrialBalance/HomeLink'), FailureHandling.STOP_ON_FAILURE)
 

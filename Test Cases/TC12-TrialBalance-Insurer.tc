@@ -12,4 +12,11 @@
       <masked>false</masked>
       <name>InsurerCommission</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1a56ecc2-62f1-426b-97b1-68b4817351d1</id>
+      <masked>false</masked>
+      <name>PolicyForInsurerCommission</name>
+   </variable>
 </TestCaseEntity>

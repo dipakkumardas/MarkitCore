@@ -80,8 +80,7 @@ WebUI.click(findTestObject('TC04-AccountMatching-MGA/MatchAmount'))
 
 WebUI.delay(5)
 
-CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('E:\\MarkitCore\\CoreApplication\\Data Files\\TestData\\Comission.xlsx', 
-    'Broker', Broker_Comm_Amt)
+CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('Data Files/TestData/Comission.xlsx', 'Broker', Broker_Comm_Amt)
 
 log.logInfo(Broker_Comm_Amt)
 

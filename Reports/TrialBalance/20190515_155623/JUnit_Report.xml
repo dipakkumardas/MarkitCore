@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TrialBalance" time="103" tests="3" failures="0" errors="0">
+   <testsuite name="TrialBalance" tests="3" failures="0" errors="0" time="103" timestamp="2019-05-15 15:56:25" hostname="dipak - DIPAKDAS-PC.indusnettechnologies.com" id="Test Suites/TrialBalance">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\MarkitCore\\MarkitCore-Final\\MarkitCoreSystem\\MarkitCore\\Reports\\TrialBalance\\20190515_155623"/>
+         <property name="logFiles" value="E:\\MarkitCore\\MarkitCore-Final\\MarkitCoreSystem\\MarkitCore\\Reports\\TrialBalance\\20190515_155623\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dipak - DIPAKDAS-PC.indusnettechnologies.com"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 74.0.3729.131"/>
+         <property name="hostAddress" value="10.0.12.237"/>
+         <property name="sessionId" value="13ea8760165d95ae79ecdeafd3556166"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC01-LoginApplication" classname="Test Cases/TC01-LoginApplication" status="PASSED">
+         <system-out><![CDATA[2019-05-15 15:56:32 - [TEST_CASE][PASSED] - Test Cases/TC01-LoginApplication: Test Cases/TC01-LoginApplication
+
+2019-05-15 15:56:33 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2019-05-15 15:56:33 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2019-05-15 15:56:33 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"): NOT_RUN: navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display")
+
+2019-05-15 15:56:33 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display")
+
+2019-05-15 15:56:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username"), username): Text 'dDasTester' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'
+
+2019-05-15 15:56:33 - [MESSAGE][PASSED] - Text 'dDasTester' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'
+
+2019-05-15 15:56:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password"), password): Text 'Czybm6R*' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'
+
+2019-05-15 15:56:33 - [MESSAGE][PASSED] - Text 'Czybm6R*' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'
+
+2019-05-15 15:56:33 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2019-05-15 15:56:37 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-15 15:56:37 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2019-05-15 15:56:37 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2019-05-15 15:56:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login")): Object: 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login' is clicked on
+
+2019-05-15 15:56:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login' is clicked on
+
+2019-05-15 15:56:45 - [TEST_STEP][NOT_RUN] - log = new com.kms.katalon.core.logging.KeywordLogger(): NOT_RUN: log = new com.kms.katalon.core.logging.KeywordLogger()
+
+2019-05-15 15:56:45 - [MESSAGE][NOT_RUN] - NOT_RUN: log = new com.kms.katalon.core.logging.KeywordLogger()
+
+2019-05-15 15:56:45 - [TEST_STEP][NOT_RUN] - log.logInfo(“Dipak”): NOT_RUN: log.logInfo(“Dipak”)
+
+2019-05-15 15:56:45 - [MESSAGE][NOT_RUN] - NOT_RUN: log.logInfo(“Dipak”)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC12-TrialBalance-Insurer" classname="Test Cases/TC12-TrialBalance-Insurer" status="PASSED">
+         <system-out><![CDATA[2019-05-15 15:56:45 - [TEST_CASE][PASSED] - Test Cases/TC12-TrialBalance-Insurer: Test Cases/TC12-TrialBalance-Insurer
+
+2019-05-15 15:56:45 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-05-15 15:56:46 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-05-15 15:56:46 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("TC11-TrialBalance/Report"), 4): Scroll to object 'Object Repository/TC11-TrialBalance/Report' successfully
+
+2019-05-15 15:56:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC11-TrialBalance/Report' successfully
+
+2019-05-15 15:56:46 - [TEST_STEP][PASSED] - click(findTestObject("TC11-TrialBalance/Report")): Object: 'Object Repository/TC11-TrialBalance/Report' is clicked on
+
+2019-05-15 15:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC11-TrialBalance/Report' is clicked on
+
+2019-05-15 15:56:46 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-15 15:56:50 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-15 15:56:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("TC11-TrialBalance/TrialBalance"), 4): Scroll to object 'Object Repository/TC11-TrialBalance/TrialBalance' successfully
+
+2019-05-15 15:56:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC11-TrialBalance/TrialBalance' successfully
+
+2019-05-15 15:56:50 - [TEST_STEP][PASSED] - click(findTestObject("TC11-TrialBalance/TrialBalance")): Object: 'Object Repository/TC11-TrialBalance/TrialBalance' is clicked on
+
+2019-05-15 15:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC11-TrialBalance/TrialBalance' is clicked on
+
+2019-05-15 15:56:52 - [TEST_STEP][PASSED] - waitForJQueryLoad(4): jQuery is ready.
+
+2019-05-15 15:56:53 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-05-15 15:56:53 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC11-TrialBalance/SelectCurrency"), "USD", false): All options with label 'USD' are selected in object 'Object Repository/TC11-TrialBalance/SelectCurrency' 
+
+2019-05-15 15:56:53 - [MESSAGE][PASSED] - All options with label 'USD' are selected in object 'Object Repository/TC11-TrialBalance/SelectCurrency' 
+
+2019-05-15 15:56:53 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-15 15:56:57 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-15 15:56:57 - [TEST_STEP][PASSED] - click(findTestObject("TC11-TrialBalance/SelectEntity")): Object: 'Object Repository/TC11-TrialBalance/SelectEntity' is clicked on
+
+2019-05-15 15:56:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC11-TrialBalance/SelectEntity' is clicked on
+
+2019-05-15 15:56:57 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-15 15:57:01 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-15 15:57:01 - [TEST_STEP][PASSED] - setText(findTestObject("TC11-TrialBalance/TypeEntityName"), "New Insurer"): Text 'New Insurer' is set on object 'Object Repository/TC11-TrialBalance/TypeEntityName'
+
+2019-05-15 15:57:01 - [MESSAGE][PASSED] - Text 'New Insurer' is set on object 'Object Repository/TC11-TrialBalance/TypeEntityName'
+
+2019-05-15 15:57:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC11-TrialBalance/TypeEntityName"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/TC11-TrialBalance/TypeEntityName'
+
+2019-05-15 15:57:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC11-TrialBalance/TypeEntityName'
+
+2019-05-15 15:57:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-15 15:57:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-15 15:57:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("TC12-TrialBalance-Insurer/InsurerCreditor"), 4): Scroll to object 'Object Repository/TC12-TrialBalance-Insurer/InsurerCreditor' successfully
+
+2019-05-15 15:57:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC12-TrialBalance-Insurer/InsurerCreditor' successfully
+
+2019-05-15 15:57:06 - [TEST_STEP][PASSED] - click(findTestObject("TC12-TrialBalance-Insurer/InsurerCreditor")): Object: 'Object Repository/TC12-TrialBalance-Insurer/InsurerCreditor' is clicked on
+
+2019-05-15 15:57:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TC12-TrialBalance-Insurer/InsurerCreditor' is clicked on
+
+2019-05-15 15:57:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-15 15:57:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-15 15:57:12 - [TEST_STEP][PASSED] - setText(findTestObject("TC11-TrialBalance/SearchPolicy"), findTestData("TestData/MTA_PolicyNO").getValue(1, 1)): Text 'DASD/POLICY/003081' is set on object 'Object Repository/TC11-TrialBalance/SearchPolicy'
+
+2019-05-15 15:57:13 - [MESSAGE][PASSED] - Text 'DASD/POLICY/003081' is set on object 'Object Repository/TC11-TrialBalance/SearchPolicy'
+
+2019-05-15 15:57:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC11-TrialBalance/SearchPolicy"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/TC11-TrialBalance/SearchPolicy'
+
+2019-05-15 15:57:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC11-TrialBalance/SearchPolicy'
+
+2019-05-15 15:57:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-15 15:57:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-15 15:57:19 - [TEST_STEP][PASSED] - InsurerComm = getText(findTestObject("TC12-TrialBalance-Insurer/InsurerValueCapture")): Text of object 'Object Repository/TC12-TrialBalance-Insurer/InsurerValueCapture' is: '84.00'
+
+2019-05-15 15:57:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC12-TrialBalance-Insurer/InsurerValueCapture' is: '84.00'
+
+2019-05-15 15:57:19 - [TEST_STEP][PASSED] - com.excel.helper.ExcelHelper.updateTheExcel("Data Files\TestData\Comission.xlsx", "InsurerCommission", InsurerComm): com.excel.helper.ExcelHelper.updateTheExcel is PASSED
+
+2019-05-15 15:57:19 - [MESSAGE][PASSED] - com.excel.helper.ExcelHelper.updateTheExcel is PASSED
+
+2019-05-15 15:57:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-15 15:57:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-15 15:57:22 - [TEST_STEP][PASSED] - verifyEqual(findTestData("TestData/InsurerComission").getValue(1, 1), InsurerCommission): Actual object '84.00' and expected object '84.00' are equal
+
+2019-05-15 15:57:22 - [MESSAGE][PASSED] - Actual object '84.00' and expected object '84.00' are equal
+
+2019-05-15 15:57:22 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-15 15:57:26 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-15 15:57:26 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("TC04-AccountMatching-MGA/CloseButton"), 5, STOP_ON_FAILURE): Object 'Object Repository/TC04-AccountMatching-MGA/CloseButton' is clickable
+
+2019-05-15 15:57:26 - [MESSAGE][PASSED] - Object 'Object Repository/TC04-AccountMatching-MGA/CloseButton' is clickable
+
+2019-05-15 15:57:26 - [TEST_STEP][PASSED] - click(findTestObject("TC04-AccountMatching-MGA/CloseButton"), STOP_ON_FAILURE): Object: 'Object Repository/TC04-AccountMatching-MGA/CloseButton' is clicked on
+
+2019-05-15 15:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04-AccountMatching-MGA/CloseButton' is clicked on
+
+2019-05-15 15:57:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("TC11-TrialBalance/HomeLink"), 4, STOP_ON_FAILURE): Scroll to object 'Object Repository/TC11-TrialBalance/HomeLink' successfully
+
+2019-05-15 15:57:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC11-TrialBalance/HomeLink' successfully
+
+2019-05-15 15:57:26 - [TEST_STEP][PASSED] - click(findTestObject("TC11-TrialBalance/HomeLink"), STOP_ON_FAILURE): Object: 'Object Repository/TC11-TrialBalance/HomeLink' is clicked on
+
+2019-05-15 15:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TC11-TrialBalance/HomeLink' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC12-TrialBalance-Insurer" classname="Test Cases/TC12-TrialBalance-Insurer" status="PASSED">
+         <system-out><![CDATA[2019-05-15 15:57:28 - [TEST_CASE][PASSED] - Test Cases/TC12-TrialBalance-Insurer: Test Cases/TC12-TrialBalance-Insurer
+
+2019-05-15 15:57:28 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-05-15 15:57:28 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-05-15 15:57:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("TC11-TrialBalance/Report"), 4): Scroll to object 'Object Repository/TC11-TrialBalance/Report' successfully
+
+2019-05-15 15:57:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC11-TrialBalance/Report' successfully
+
+2019-05-15 15:57:28 - [TEST_STEP][PASSED] - click(findTestObject("TC11-TrialBalance/Report")): Object: 'Object Repository/TC11-TrialBalance/Report' is clicked on
+
+2019-05-15 15:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TC11-TrialBalance/Report' is clicked on
+
+2019-05-15 15:57:28 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-15 15:57:32 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-15 15:57:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("TC11-TrialBalance/TrialBalance"), 4): Scroll to object 'Object Repository/TC11-TrialBalance/TrialBalance' successfully
+
+2019-05-15 15:57:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC11-TrialBalance/TrialBalance' successfully
+
+2019-05-15 15:57:33 - [TEST_STEP][PASSED] - click(findTestObject("TC11-TrialBalance/TrialBalance")): Object: 'Object Repository/TC11-TrialBalance/TrialBalance' is clicked on
+
+2019-05-15 15:57:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TC11-TrialBalance/TrialBalance' is clicked on
+
+2019-05-15 15:57:34 - [TEST_STEP][PASSED] - waitForJQueryLoad(4): jQuery is ready.
+
+2019-05-15 15:57:34 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-05-15 15:57:34 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC11-TrialBalance/SelectCurrency"), "USD", false): All options with label 'USD' are selected in object 'Object Repository/TC11-TrialBalance/SelectCurrency' 
+
+2019-05-15 15:57:35 - [MESSAGE][PASSED] - All options with label 'USD' are selected in object 'Object Repository/TC11-TrialBalance/SelectCurrency' 
+
+2019-05-15 15:57:35 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-15 15:57:39 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-15 15:57:39 - [TEST_STEP][PASSED] - click(findTestObject("TC11-TrialBalance/SelectEntity")): Object: 'Object Repository/TC11-TrialBalance/SelectEntity' is clicked on
+
+2019-05-15 15:57:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC11-TrialBalance/SelectEntity' is clicked on
+
+2019-05-15 15:57:39 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-15 15:57:43 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-15 15:57:43 - [TEST_STEP][PASSED] - setText(findTestObject("TC11-TrialBalance/TypeEntityName"), "New Insurer"): Text 'New Insurer' is set on object 'Object Repository/TC11-TrialBalance/TypeEntityName'
+
+2019-05-15 15:57:43 - [MESSAGE][PASSED] - Text 'New Insurer' is set on object 'Object Repository/TC11-TrialBalance/TypeEntityName'
+
+2019-05-15 15:57:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC11-TrialBalance/TypeEntityName"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/TC11-TrialBalance/TypeEntityName'
+
+2019-05-15 15:57:43 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC11-TrialBalance/TypeEntityName'
+
+2019-05-15 15:57:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-15 15:57:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-15 15:57:48 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("TC12-TrialBalance-Insurer/InsurerCreditor"), 4): Scroll to object 'Object Repository/TC12-TrialBalance-Insurer/InsurerCreditor' successfully
+
+2019-05-15 15:57:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC12-TrialBalance-Insurer/InsurerCreditor' successfully
+
+2019-05-15 15:57:48 - [TEST_STEP][PASSED] - click(findTestObject("TC12-TrialBalance-Insurer/InsurerCreditor")): Object: 'Object Repository/TC12-TrialBalance-Insurer/InsurerCreditor' is clicked on
+
+2019-05-15 15:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC12-TrialBalance-Insurer/InsurerCreditor' is clicked on
+
+2019-05-15 15:57:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-15 15:57:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-15 15:57:54 - [TEST_STEP][PASSED] - setText(findTestObject("TC11-TrialBalance/SearchPolicy"), findTestData("TestData/MTA_PolicyNO").getValue(1, 1)): Text 'DASD/POLICY/003081' is set on object 'Object Repository/TC11-TrialBalance/SearchPolicy'
+
+2019-05-15 15:57:54 - [MESSAGE][PASSED] - Text 'DASD/POLICY/003081' is set on object 'Object Repository/TC11-TrialBalance/SearchPolicy'
+
+2019-05-15 15:57:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC11-TrialBalance/SearchPolicy"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/TC11-TrialBalance/SearchPolicy'
+
+2019-05-15 15:57:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC11-TrialBalance/SearchPolicy'
+
+2019-05-15 15:57:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-15 15:57:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-15 15:57:59 - [TEST_STEP][PASSED] - InsurerComm = getText(findTestObject("TC12-TrialBalance-Insurer/InsurerValueCapture")): Text of object 'Object Repository/TC12-TrialBalance-Insurer/InsurerValueCapture' is: '84.00'
+
+2019-05-15 15:57:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC12-TrialBalance-Insurer/InsurerValueCapture' is: '84.00'
+
+2019-05-15 15:57:59 - [TEST_STEP][PASSED] - com.excel.helper.ExcelHelper.updateTheExcel("Data Files\TestData\Comission.xlsx", "InsurerCommission", InsurerComm): com.excel.helper.ExcelHelper.updateTheExcel is PASSED
+
+2019-05-15 15:57:59 - [MESSAGE][PASSED] - com.excel.helper.ExcelHelper.updateTheExcel is PASSED
+
+2019-05-15 15:57:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-15 15:58:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-15 15:58:02 - [TEST_STEP][PASSED] - verifyEqual(findTestData("TestData/InsurerComission").getValue(1, 1), InsurerCommission): Actual object '84.00' and expected object '84.00' are equal
+
+2019-05-15 15:58:02 - [MESSAGE][PASSED] - Actual object '84.00' and expected object '84.00' are equal
+
+2019-05-15 15:58:02 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-15 15:58:06 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-15 15:58:06 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("TC04-AccountMatching-MGA/CloseButton"), 5, STOP_ON_FAILURE): Object 'Object Repository/TC04-AccountMatching-MGA/CloseButton' is clickable
+
+2019-05-15 15:58:06 - [MESSAGE][PASSED] - Object 'Object Repository/TC04-AccountMatching-MGA/CloseButton' is clickable
+
+2019-05-15 15:58:06 - [TEST_STEP][PASSED] - click(findTestObject("TC04-AccountMatching-MGA/CloseButton"), STOP_ON_FAILURE): Object: 'Object Repository/TC04-AccountMatching-MGA/CloseButton' is clicked on
+
+2019-05-15 15:58:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04-AccountMatching-MGA/CloseButton' is clicked on
+
+2019-05-15 15:58:07 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("TC11-TrialBalance/HomeLink"), 4, STOP_ON_FAILURE): Scroll to object 'Object Repository/TC11-TrialBalance/HomeLink' successfully
+
+2019-05-15 15:58:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC11-TrialBalance/HomeLink' successfully
+
+2019-05-15 15:58:07 - [TEST_STEP][PASSED] - click(findTestObject("TC11-TrialBalance/HomeLink"), STOP_ON_FAILURE): Object: 'Object Repository/TC11-TrialBalance/HomeLink' is clicked on
+
+2019-05-15 15:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TC11-TrialBalance/HomeLink' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-15 15:56:25 - [TEST_SUITE][PASSED] - TrialBalance: Test Cases/TC12-TrialBalance-Insurer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

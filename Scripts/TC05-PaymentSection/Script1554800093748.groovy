@@ -22,23 +22,27 @@ WebUI.click(findTestObject('TC05-PaymentSection/Payments'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('TC05-PaymentSection/Cash and Cheque Payments'))
+WebUI.click(findTestObject('TC05-PaymentSection/Cash and Cheque Payments'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('TC05-PaymentSection/PolicyNoSearchBox'), Policy_No_Search)
+WebUI.setText(findTestObject('TC05-PaymentSection/PolicyNoSearchBox'), Policy_No_Search, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('TC05-PaymentSection/PolicyNoSearchBox'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('TC05-PaymentSection/PolicyNoSearchBox'), Keys.chord(Keys.ENTER), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('TC05-PaymentSection/EditPaymentListing'))
+WebUI.click(findTestObject('TC05-PaymentSection/EditPaymentListing'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('TC05-PaymentSection/Note'), 'This is Testing Only')
+WebUI.setText(findTestObject('TC05-PaymentSection/Note'), 'This is Testing Only', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByLabel(findTestObject('TC05-PaymentSection/TransactionStatus'), 'Paid', false)
+WebUI.selectOptionByLabel(findTestObject('TC05-PaymentSection/TransactionStatus'), 'Paid', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('TC05-PaymentSection/SaveButton'))
+WebUI.click(findTestObject('TC05-PaymentSection/SaveButton'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(4)
+
+WebUI.waitForElementPresent(findTestObject('TC05-PaymentSection/PaymentAddedSuccessfully'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('TC05-PaymentSection/Payments'))
 

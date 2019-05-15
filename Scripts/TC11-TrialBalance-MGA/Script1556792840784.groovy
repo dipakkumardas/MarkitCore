@@ -15,50 +15,63 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.util.logging.Logger as Logger
 
-WebUI.waitForJQueryLoad(5)
+WebUI.waitForJQueryLoad(5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('TC11-TrialBalance/Report'), 4)
+WebUI.scrollToElement(findTestObject('TC11-TrialBalance/Report'), 4, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('TC11-TrialBalance/Report'))
+WebUI.click(findTestObject('TC11-TrialBalance/Report'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(4)
+WebUI.delay(4, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('TC11-TrialBalance/TrialBalance'), 4)
+WebUI.scrollToElement(findTestObject('TC11-TrialBalance/TrialBalance'), 4, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('TC11-TrialBalance/TrialBalance'))
+WebUI.waitForElementClickable(findTestObject('TC11-TrialBalance/TrialBalance'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForJQueryLoad(4)
+WebUI.click(findTestObject('TC11-TrialBalance/TrialBalance'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByLabel(findTestObject('TC11-TrialBalance/SelectCurrency'), 'USD', false)
+WebUI.waitForJQueryLoad(4, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(4)
+WebUI.selectOptionByLabel(findTestObject('TC11-TrialBalance/SelectCurrency'), 'USD', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('TC11-TrialBalance/SelectEntity'))
+WebUI.delay(4, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(4)
+WebUI.click(findTestObject('TC11-TrialBalance/SelectEntity'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('TC11-TrialBalance/TypeEntityName'), 'NEW MGA')
+WebUI.delay(4, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('TC11-TrialBalance/TypeEntityName'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('TC11-TrialBalance/TypeEntityName'), 'NEW MGA', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.sendKeys(findTestObject('TC11-TrialBalance/TypeEntityName'), Keys.chord(Keys.ENTER), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('TC11-TrialBalance/MGACreditor'))
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(4)
+WebUI.click(findTestObject('TC11-TrialBalance/MGACreditor'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('TC11-TrialBalance/SearchPolicy'), findTestData('TestData/MTA_PolicyNO').getValue(1, 1))
+WebUI.delay(4, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('TC11-TrialBalance/SearchPolicy'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('TC11-TrialBalance/SearchPolicy'), PolicyNo_TrialBalance, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(4)
+WebUI.sendKeys(findTestObject('TC11-TrialBalance/SearchPolicy'), Keys.chord(Keys.ENTER), FailureHandling.STOP_ON_FAILURE)
 
-def MGA_Comm_Value = WebUI.getText(findTestObject('TC11-TrialBalance/MGAValueCapture'))
+WebUI.delay(4, FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('E:\\MarkitCore\\CoreApplication\\Data Files\\TestData\\Comission.xlsx', 
-    'MGATrialBalance', MGA_Comm_Value)
+def MGA_Comm_Value = WebUI.getText(findTestObject('TC11-TrialBalance/MGAValueCapture'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('Data Files/TestData/Comission.xlsx', 'MGATrialBalance', MGA_Comm_Value)
 
-WebUI.verifyEqual(findTestData('TestData/MGAComission').getValue(1, 1), MGA_Comm_Value)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyEqual(findTestData('TestData/MGAComission').getValue(1, 1), MGA_Comm_Value, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementClickable(findTestObject('TC04-AccountMatching-MGA/CloseButton'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('TC04-AccountMatching-MGA/CloseButton'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('TC11-TrialBalance/HomeLink'), 4, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('TC11-TrialBalance/HomeLink'), FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.scrollToElement(findTestObject('TC11-TrialBalance/Report'), 4, FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.click(findTestObject('TC11-TrialBalance/Report'), FailureHandling.STOP_ON_FAILURE)
 

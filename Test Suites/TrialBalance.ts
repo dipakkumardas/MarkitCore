@@ -59,6 +59,15 @@
       <testCaseId>Test Cases/TC12-TrialBalance-Insurer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
+         <id>b8d59265-d65f-4764-ae54-67adbf6f1819</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData/MTA_PolicyNO</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
          <id>53bd0836-408c-4f1c-a75c-a1b72a6c975a</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
@@ -72,17 +81,47 @@
          <value>Insurer Comission</value>
          <variableId>e6fe6a04-a39e-43d3-b52c-5802ed129f4e</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>b8d59265-d65f-4764-ae54-67adbf6f1819</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PolicyNo</value>
+         <variableId>1a56ecc2-62f1-426b-97b1-68b4817351d1</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>c7576fcf-e70a-47b8-b22e-388e21c23e23</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC13-TrialBalance-Broker</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1c880311-92c1-42cf-b59a-34b096c07e55</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData/MTA_PolicyNO</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5082f4e2-f9c2-415d-8a3a-96e0553687c6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData/BrokerComission</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>5082f4e2-f9c2-415d-8a3a-96e0553687c6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>BrokerComission</value>
          <variableId>095b248a-29c5-4901-8367-4b2f0ed64117</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1c880311-92c1-42cf-b59a-34b096c07e55</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PolicyNo</value>
+         <variableId>c8c65c13-9650-4ac0-a4ec-50495dcb164a</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

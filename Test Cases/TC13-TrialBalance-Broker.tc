@@ -12,4 +12,11 @@
       <masked>false</masked>
       <name>BrokerCom</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c8c65c13-9650-4ac0-a4ec-50495dcb164a</id>
+      <masked>false</masked>
+      <name>PolicyNoForBrokerComission</name>
+   </variable>
 </TestCaseEntity>
