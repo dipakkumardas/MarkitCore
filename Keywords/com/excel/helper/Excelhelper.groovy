@@ -35,7 +35,7 @@ public class ExcelHelper {
 	}
 
 	@Keyword
-	public void updateTheExcel(String fileName, String sheetName, String aValue) throws IOException {
+	public void updateTheExcel1(String fileName, String sheetName,String columnname, String aValue) throws IOException {
 		XSSFWorkbook book = null;
 		FileInputStream fin = null;
 
@@ -57,8 +57,10 @@ public class ExcelHelper {
 		}
 
 		try {
+
+			int colNum=columnNumberByColumnName(fileName,sheetName,columnname);
 			int rowIndex=rownext(fileName,sheetName);
-			updateTheExcel(sheet, aValue, rowIndex,0);
+			updateTheExcel(sheet, aValue, rowIndex,colNum);
 			writeToExcel(excel_file, book);
 		} finally {
 			if (fin != null)
@@ -66,11 +68,55 @@ public class ExcelHelper {
 		}
 	}
 
+
+
+
+	@Keyword
+	public void updateTheExcel2(String fileName, String sheetName,String columnname, String aValue,String polnum) throws IOException {
+		XSSFWorkbook book = null;
+		FileInputStream fin = null;
+
+		File excel_file = createExcel(fileName);
+		if (excel_file.exists()) {
+			fin = new FileInputStream(excel_file);
+			book = new XSSFWorkbook(fin);
+		} else {
+			book = new XSSFWorkbook();
+		}
+
+		XSSFSheet sheet = getSheet(book, sheetName);
+
+
+		try {
+
+			int colNum=columnNumberByColumnName(fileName,sheetName,columnname);
+			int rowIndex=rowNumberByPolNum(fileName,sheetName,polnum);
+			updateTheExcel2(sheet, aValue, rowIndex,colNum);
+			writeToExcel(excel_file, book);
+		} finally {
+			if (fin != null)
+				fin.close();
+		}
+	}
+
+
+
+
+
+
 	public void updateTheExcel(XSSFSheet sheet, String aValue, int rowIndex, int colIndex) {
 		XSSFRow sheetRow = sheet.createRow(rowIndex);
 		XSSFCell sheetCell = sheetRow.createCell(colIndex);
 		sheetCell.setCellValue(aValue);
 	}
+
+
+	public void updateTheExcel2(XSSFSheet sheet, String aValue, int rowIndex, int colIndex) {
+
+		sheet.getRow(rowIndex).createCell(colIndex).setCellValue(aValue);
+	}
+
+
 
 	public void writeToExcel(File excel_file, XSSFWorkbook book) throws IOException {
 		FileOutputStream out = null;
@@ -99,5 +145,53 @@ public class ExcelHelper {
 		XSSFSheet sheet = workbook.getSheet(sheetName);
 		int rowCount = sheet.physicalNumberOfRows;
 		return rowCount++;
+	}
+
+
+	@Keyword
+	public int columnNumberByColumnName(String fileName, String sheetName,String columnnm) {
+
+		FileInputStream fis = new FileInputStream(fileName);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+
+		XSSFSheet sheet = workbook.getSheet(sheetName);
+		XSSFRow r=sheet.getRow(0);
+		int cnum=0;
+		int colmcount=r.getPhysicalNumberOfCells();
+		for(int i=0;i<colmcount;i++) {
+			if(r.getCell(i).getStringCellValue().equalsIgnoreCase(columnnm)) {
+				cnum=i;
+				break;
+			}
+		}
+		return cnum;
+	}
+
+
+
+	@Keyword
+	public int rowNumberByPolNum(String fileName, String sheetName,String polnum) {
+
+		FileInputStream fis = new FileInputStream(fileName);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+
+		XSSFSheet sheet = workbook.getSheet(sheetName);
+		int rowCount = sheet.getPhysicalNumberOfRows();
+		XSSFRow r=sheet.getRow(0);
+
+		int cnum=0;
+		for(int i=1;i<rowCount;i++) {
+
+			r=sheet.getRow(i);
+			XSSFCell c=r.getCell(0);
+			//c.setCellStyle(CellType.STRING);
+			String val=c.getStringCellValue();
+
+			if(val.equalsIgnoreCase(polnum)) {
+				cnum=i;
+				break;
+			}
+		}
+		return cnum;
 	}
 }

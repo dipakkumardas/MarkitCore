@@ -6,11 +6,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>aa3d5ded-4fdc-46d7-9be3-491b43230993</dataFileGUID>
-   <dataSourceUrl>Data Files/TestData/policy.xlsx</dataSourceUrl>
+   <dataSourceUrl>Data Files/PolicyData.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>policy</sheetName>
+   <sheetName>Sheet2</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

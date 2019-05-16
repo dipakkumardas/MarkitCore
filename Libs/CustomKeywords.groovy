@@ -6,14 +6,30 @@
 import java.lang.String
 
 
-def static "com.excel.helper.ExcelHelper.updateTheExcel"(
+def static "com.excel.helper.ExcelHelper.updateTheExcel1"(
     	String fileName	
      , 	String sheetName	
+     , 	String columnname	
      , 	String aValue	) {
-    (new com.excel.helper.ExcelHelper()).updateTheExcel(
+    (new com.excel.helper.ExcelHelper()).updateTheExcel1(
         	fileName
          , 	sheetName
+         , 	columnname
          , 	aValue)
+}
+
+def static "com.excel.helper.ExcelHelper.updateTheExcel2"(
+    	String fileName	
+     , 	String sheetName	
+     , 	String columnname	
+     , 	String aValue	
+     , 	String polnum	) {
+    (new com.excel.helper.ExcelHelper()).updateTheExcel2(
+        	fileName
+         , 	sheetName
+         , 	columnname
+         , 	aValue
+         , 	polnum)
 }
 
 def static "com.excel.helper.ExcelHelper.rownext"(
@@ -22,6 +38,26 @@ def static "com.excel.helper.ExcelHelper.rownext"(
     (new com.excel.helper.ExcelHelper()).rownext(
         	fileName
          , 	sheetName)
+}
+
+def static "com.excel.helper.ExcelHelper.columnNumberByColumnName"(
+    	String fileName	
+     , 	String sheetName	
+     , 	String columnnm	) {
+    (new com.excel.helper.ExcelHelper()).columnNumberByColumnName(
+        	fileName
+         , 	sheetName
+         , 	columnnm)
+}
+
+def static "com.excel.helper.ExcelHelper.rowNumberByPolNum"(
+    	String fileName	
+     , 	String sheetName	
+     , 	String polnum	) {
+    (new com.excel.helper.ExcelHelper()).rowNumberByPolNum(
+        	fileName
+         , 	sheetName
+         , 	polnum)
 }
 
 def static "com.excel.helper.InsurerComission.updateTheExcel"(

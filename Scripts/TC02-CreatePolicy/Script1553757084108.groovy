@@ -89,7 +89,8 @@ WebUI.delay(5)
 
 var_Total = WebUI.getText(findTestObject('TC-CreatePolicy/Premium/TotalPremium'))
 
-CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('Data Files/TestData/policy.xlsx', 'ActualValue', var_Total)
+not_run: CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('Data Files/TestData/policy.xlsx', 'ActualValue', 
+    var_Total)
 
 not_run: WebUI.verifyElementText(findTestObject('TC-CreatePolicy/Premium/TotalPremium'), var_ExpectedValue)
 
@@ -129,7 +130,7 @@ WebUI.delay(5)
 
 not_run: System.out.println(PolicyNo_Global)
 
-CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('Data Files/TestData/policy.xlsx', 'policy', Get_Policy_No)
+CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel1'('Data Files/PolicyData.xlsx', 'Sheet2', 'PolicyNo', Get_Policy_No)
 
 not_run: log.logInfo(PolicyNo_Global)
 
