@@ -39,6 +39,15 @@
          </iterationEntity>
          <testDataId>Data Files/TestData/MGAComission</testDataId>
       </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5fc2114f-0aab-482c-9928-bae896732c6d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData/MGATrialBalance</testDataId>
+      </testDataLink>
       <variableLink>
          <testDataLinkId>79f4a0f1-efe8-4856-92fd-49ac53733660</testDataLinkId>
          <type>DATA_COLUMN</type>
