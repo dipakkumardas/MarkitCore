@@ -68,6 +68,8 @@ BROKER_Comission_Amount = WebUI.getText(findTestObject('TC04-AccountMatching-MGA
 
 Broker_Comm_Amt = CustomKeywords.'subString.FatchSubstringValue.SubString'(BROKER_Comission_Amount)
 
+WebUI.delay(4)
+
 not_run: WebUI.scrollToElement(findTestObject('TC04-AccountMatching-MGA/PAYFULL'), 5)
 
 not_run: WebUI.setText(findTestObject('TC04-AccountMatching-MGA/PAYFULL'), MGA_Comission_Amount)

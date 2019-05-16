@@ -48,7 +48,7 @@ WebUI.click(findTestObject('TC12-TrialBalance-Insurer/InsurerCreditor'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('TC11-TrialBalance/SearchPolicy'), findTestData('TestData/MTA_PolicyNO').getValue(1, 1))
+WebUI.setText(findTestObject('TC11-TrialBalance/SearchPolicy'), PolicyForInsurerCommission)
 
 WebUI.sendKeys(findTestObject('TC11-TrialBalance/SearchPolicy'), Keys.chord(Keys.ENTER))
 

@@ -50,6 +50,8 @@ WebUI.delay(5)
 
 WebUI.setText(findTestObject('TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox'), MTA_Policy_No)
 
+WebUI.delay(3)
+
 WebUI.sendKeys(findTestObject('TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)

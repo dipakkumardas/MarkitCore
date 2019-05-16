@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>6d22ef19-6fb9-44aa-83a0-dba1237740f6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC11-TrialBalance-MGA</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -91,7 +91,7 @@
    <testCaseLink>
       <guid>c7576fcf-e70a-47b8-b22e-388e21c23e23</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC13-TrialBalance-Broker</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
