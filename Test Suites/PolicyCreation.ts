@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>3af4f965-9179-4991-89eb-379f548de577</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC02-CreatePolicy</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -106,7 +106,7 @@
    <testCaseLink>
       <guid>76c3e2dc-16f2-4fa9-a16d-100cb8d649c9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC05-PaymentSection</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -127,7 +127,7 @@
    <testCaseLink>
       <guid>d1b1e8f8-17ad-4223-853e-96ce3f7f01a3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC04-AccountMatching-MGA</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -221,6 +221,39 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>484a7b71-40a0-4bf2-9b17-fe633797eb6a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cfdd4446-707e-47d8-bea4-e1a2dbe77d65</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/TC14-AccountMatching-LondonBroker</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8b31dcbc-341c-4bc5-a528-b8edd6ed59e2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData/MTA_PolicyNO</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>8b31dcbc-341c-4bc5-a528-b8edd6ed59e2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PolicyNo</value>
+         <variableId>53e9bf9f-d9b8-40d4-a04c-aac17f6a42dc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f45b20a8-09b2-4e9e-b5ff-b0f341be1568</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>29884b49-84ec-403e-98ab-63c0679d8078</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

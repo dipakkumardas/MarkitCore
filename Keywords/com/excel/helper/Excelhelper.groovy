@@ -194,4 +194,41 @@ public class ExcelHelper {
 		}
 		return cnum;
 	}
+	
+	
+	@Keyword
+	public String columnDataByPolNum(String fileName, String sheetName,String columnname,String polnum) {
+
+		FileInputStream fis = new FileInputStream(fileName);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+
+		XSSFSheet sheet = workbook.getSheet(sheetName);
+		int rowCount = sheet.getPhysicalNumberOfRows();
+		XSSFRow r=sheet.getRow(0);
+
+		int cnum=0;
+		for(int i=1;i<rowCount;i++) {
+
+			r=sheet.getRow(i);
+			XSSFCell c=r.getCell(0);
+			//c.setCellStyle(CellType.STRING);
+			String val=c.getStringCellValue();
+
+			if(val.equalsIgnoreCase(polnum)) {
+				cnum=i;
+				break;
+			}
+		}
+
+		int colNum=columnNumberByColumnName(fileName,sheetName,columnname);
+		String data=sheet.getRow(cnum).getCell(colNum).getStringCellValue();
+
+		return data;
+
+
+
+	}
+	
+	
+	
 }

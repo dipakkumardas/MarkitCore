@@ -78,7 +78,8 @@ WebUI.click(findTestObject('TC04-AccountMatching-MGA/MatchAmount'))
 
 WebUI.delay(5)
 
-CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('Data Files/TestData/Comission.xlsx', 'Insurer', Insur_Comm_Amt)
+CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel2'('Data Files/PolicyData.xlsx', 'Commission', 'Insurer Comission', 
+    Insur_Comm_Amt, MTA_Policy_No)
 
 log.logInfo(Insur_Comm_Amt)
 

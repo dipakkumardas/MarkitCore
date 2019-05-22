@@ -56,12 +56,12 @@ WebUI.delay(5)
 
 def InsurerComm = WebUI.getText(findTestObject('TC12-TrialBalance-Insurer/InsurerValueCapture'))
 
-CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('Data Files\\TestData\\Comission.xlsx', 'InsurerCommission', 
-    InsurerComm)
-
 WebUI.delay(3)
 
-WebUI.verifyEqual(findTestData('TestData/InsurerComission').getValue(1, 1), InsurerCommission)
+def actualData2 = CustomKeywords.'com.excel.helper.ExcelHelper.columnDataByPolNum'('Data Files/PolicyData.xlsx', 'Commission', 
+    'Insurer Comission', PolicyForInsurerCommission)
+
+WebUI.verifyEqual(actualData2, InsurerComm)
 
 WebUI.delay(4)
 

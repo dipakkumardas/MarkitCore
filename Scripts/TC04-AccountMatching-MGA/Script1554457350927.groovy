@@ -76,8 +76,10 @@ WebUI.click(findTestObject('TC04-AccountMatching-MGA/MatchAmount'))
 
 WebUI.delay(5)
 
-CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel2'('Data Files/PolicyData.xlsx', 'Sheet2', 'MGA_Comission', MGA_Comm_Amt, 
-    MTA_Policy_No)
+CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel2'('Data Files/PolicyData.xlsx', 'Commission', 'MGA_Comission', 
+    MGA_Comm_Amt, MTA_Policy_No)
+
+WebUI.click(findTestObject('TC11-TrialBalance/HomeLink'))
 
 log.logInfo(MGA_Comission_Amount)
 

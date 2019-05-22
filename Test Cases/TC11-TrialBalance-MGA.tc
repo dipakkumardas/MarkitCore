@@ -19,4 +19,11 @@
       <masked>false</masked>
       <name>MGA_Comm_Value</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7f19fd34-8e03-42f6-bdb7-0a78ced2fc59</id>
+      <masked>false</masked>
+      <name>actualData</name>
+   </variable>
 </TestCaseEntity>

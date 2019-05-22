@@ -19,4 +19,11 @@
       <masked>false</masked>
       <name>PolicyNoForBrokerComission</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>86f59f44-fe14-4648-91b2-bb49f0e2eb3e</id>
+      <masked>false</masked>
+      <name>actualdata3</name>
+   </variable>
 </TestCaseEntity>

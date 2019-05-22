@@ -18,6 +18,8 @@ WebUI.waitForJQueryLoad(5)
 
 WebUI.scrollToElement(findTestObject('TC11-TrialBalance/Report'), 4)
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('TC11-TrialBalance/Report'))
 
 WebUI.delay(4)
@@ -58,12 +60,14 @@ WebUI.delay(5)
 
 def BrokerCom = WebUI.getText(findTestObject('TC13-TrialBalance-Broker/BrokerValueCapture'))
 
-CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('Data Files\\TestData\\Comission.xlsx', 'ExpectedBrokerComission', 
-    BrokerCom)
+WebUI.delay(4)
+
+actualdata3 = CustomKeywords.'com.excel.helper.ExcelHelper.columnDataByPolNum'('Data Files/PolicyData.xlsx', 'Commission', 
+    'BrokerComission', PolicyNoForBrokerComission)
 
 WebUI.delay(3)
 
-WebUI.verifyEqual(findTestData('TestData/BrokerComission').getValue(1, 1), BrokerCom)
+WebUI.verifyEqual(actualdata3, BrokerCom)
 
 WebUI.delay(4)
 

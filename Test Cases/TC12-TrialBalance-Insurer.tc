@@ -19,4 +19,18 @@
       <masked>false</masked>
       <name>PolicyForInsurerCommission</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5c24e1cb-baf8-4b64-99b6-e023fe194ef5</id>
+      <masked>false</masked>
+      <name>actualdata2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2efb8fb1-8f1b-4ac9-8edb-a2f32462793b</id>
+      <masked>false</masked>
+      <name>InsurerComm</name>
+   </variable>
 </TestCaseEntity>

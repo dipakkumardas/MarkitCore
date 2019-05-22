@@ -57,15 +57,15 @@ WebUI.delay(4, FailureHandling.STOP_ON_FAILURE)
 
 def MGA_Comm_Value = WebUI.getText(findTestObject('TC11-TrialBalance/MGAValueCapture'), FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('Data Files/TestData/Comission.xlsx', 'MGATrialBalance', MGA_Comm_Value)
+not_run: CustomKeywords.'com.excel.helper.ExcelHelper.updateTheExcel'('Data Files/TestData/Comission.xlsx', 'MGATrialBalance', 
+    MGA_Comm_Value)
+
+def actualData = CustomKeywords.'com.excel.helper.ExcelHelper.columnDataByPolNum'('Data Files/PolicyData.xlsx', 'Commission', 
+    'MGA_Comission', PolicyNo_TrialBalance)
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyEqual(findTestData('TestData/MGAComission').getValue(1, 1), findTestData('TestData/MGATrialBalance').getValue(
-        1, 1), FailureHandling.STOP_ON_FAILURE)
-
-not_run: WebUI.verifyEqual(findTestObject('TC11-TrialBalance/VerifyObject'), findTestData('TestData/MGAComission').getValue(
-        MGA_Comm_Value, MGA_Comm_Value))
+WebUI.verifyEqual(actualData, MGA_Comm_Value)
 
 WebUI.waitForElementClickable(findTestObject('TC04-AccountMatching-MGA/CloseButton'), 5, FailureHandling.STOP_ON_FAILURE)
 

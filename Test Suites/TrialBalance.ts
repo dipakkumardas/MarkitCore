@@ -30,24 +30,6 @@
          </iterationEntity>
          <testDataId>Data Files/TestData/MTA_PolicyNO</testDataId>
       </testDataLink>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>53846ce5-1ccf-4ecf-b6b0-5b03ea33bb5c</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/TestData/MGAComission</testDataId>
-      </testDataLink>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>5fc2114f-0aab-482c-9928-bae896732c6d</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/TestData/MGATrialBalance</testDataId>
-      </testDataLink>
       <variableLink>
          <testDataLinkId>79f4a0f1-efe8-4856-92fd-49ac53733660</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -55,16 +37,22 @@
          <variableId>ae96ae78-a819-4ed5-ac37-efc3340de41e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>53846ce5-1ccf-4ecf-b6b0-5b03ea33bb5c</testDataLinkId>
+         <testDataLinkId>79f4a0f1-efe8-4856-92fd-49ac53733660</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>MGA Comission</value>
+         <value>MGA_Comission</value>
          <variableId>e76654a4-aa32-41ca-897e-c7bd7248a016</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7f19fd34-8e03-42f6-bdb7-0a78ced2fc59</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>3a1c9475-a2ba-4204-a0ba-346fd636fe72</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC12-TrialBalance-Insurer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -96,11 +84,23 @@
          <value>PolicyNo</value>
          <variableId>1a56ecc2-62f1-426b-97b1-68b4817351d1</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5c24e1cb-baf8-4b64-99b6-e023fe194ef5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2efb8fb1-8f1b-4ac9-8edb-a2f32462793b</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>c7576fcf-e70a-47b8-b22e-388e21c23e23</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC13-TrialBalance-Broker</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -131,6 +131,12 @@
          <type>DATA_COLUMN</type>
          <value>PolicyNo</value>
          <variableId>c8c65c13-9650-4ac0-a4ec-50495dcb164a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>86f59f44-fe14-4648-91b2-bb49f0e2eb3e</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

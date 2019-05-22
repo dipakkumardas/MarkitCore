@@ -60,6 +60,18 @@ def static "com.excel.helper.ExcelHelper.rowNumberByPolNum"(
          , 	polnum)
 }
 
+def static "com.excel.helper.ExcelHelper.columnDataByPolNum"(
+    	String fileName	
+     , 	String sheetName	
+     , 	String columnname	
+     , 	String polnum	) {
+    (new com.excel.helper.ExcelHelper()).columnDataByPolNum(
+        	fileName
+         , 	sheetName
+         , 	columnname
+         , 	polnum)
+}
+
 def static "com.excel.helper.InsurerComission.updateTheExcel"(
     	String fileName	
      , 	String sheetName	
